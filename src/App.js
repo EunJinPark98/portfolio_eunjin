@@ -6,7 +6,7 @@ import { useState } from 'react';
 function App() {
   let name = '박은진';
   let [category] = useState(['Intro', 'Project', 'Connect']);
-  let [project] = useState(['GREEN MOA', '그린의 서재', '쇼핑몰웹', '회사소개반응형웹', 'CBT']);
+  let [project, changeProject] = useState(['GREEN MOA', '그린의 서재', '쇼핑몰웹', '회사소개반응형웹', 'CBT']);
   let [like, likeUp] = useState(0);
 
   return (
@@ -26,7 +26,13 @@ function App() {
       </div>
       <div>
         <h3>{ category[1] }</h3>
-        <p>{ project[0] }</p>
+        <p>{ project[0] }
+          <button onClick={()=>{
+            let arr = [... project];
+            arr[0] = '그린 모아';
+            changeProject(arr);
+          }}>변경</button>
+        </p>
         <p>{ project[1] }</p>
         <p>{ project[2] }</p>
         <p>{ project[3] }</p>
