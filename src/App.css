@@ -1,19 +1,21 @@
+@font-face {
+  font-family: 'Giants-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 .App {
   text-align: center;
+  font-family: 'Giants-Bold';
 }
 
-.header {
-  background-color: #282c34;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu-bar{
+  background-color: #F8D1D2;
 }
 
-nav{
-  background-color: gray;
+.photo{
+  width: 150px;
+  height: auto;
+  border-radius: 20%;
 }
 
