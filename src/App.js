@@ -17,8 +17,8 @@ function App() {
       <Container fluid>
         <Row>
           <Col xs={3} className='menu-bar'>
-            <p>Eunjin's portfolio</p>
-            <p>이미지</p>
+            <h6 className='mb-5'>Eunjin's portfolio</h6>
+            <p className='mb-3'><img className="menu-photo" src="photo.jpg"></img></p>
             <p onClick={()=>{navigate('/about')}}>About me</p>
             <p onClick={()=>{navigate('/skills')}}>Skills</p>
             <p onClick={()=>{navigate('/projects')}}>Projects</p>

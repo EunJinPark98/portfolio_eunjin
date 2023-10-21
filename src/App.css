@@ -1,21 +1,56 @@
 @font-face {
-  font-family: 'Giants-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
-  font-weight: 700;
+  font-family: 'TAEBAEKfont';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
 }
+/* App */
 .App {
   text-align: center;
-  font-family: 'Giants-Bold';
+  font-family: 'TAEBAEKfont';
+  font-size: 12px;
 }
 
 .menu-bar{
   background-color: #F8D1D2;
+  height: 500px;
+  padding: 50px 0;
 }
 
+.menu-photo{
+  width: 100px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+/* About */
 .photo{
   width: 150px;
   height: auto;
   border-radius: 20%;
 }
-
+.front-logo3{
+  width: 150px;
+  height: auto;
+}
+.front-logo{
+  width: 50px;
+  height: auto;
+}
+.back-logo{
+  width: 100px;
+  height: auto;
+}
+.version-logo{
+  width: 50px;
+  height: auto;
+}
+.design-logo{
+  width: 100px;
+  height: auto;
+}
+.communication-logo{
+  width: 25px;
+  height: auto;
+}
