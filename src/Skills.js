@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 function Skills(){
     return(
         <>
-        <h4>Skills</h4>
+        <h6>Skills</h6>
         <Row>
             <Col>
             <h6>Frontend</h6>

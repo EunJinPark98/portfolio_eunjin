@@ -3,11 +3,7 @@ import { Col, Row } from "react-bootstrap";
 function About(){
     return (
         <>
-        <Row>
-            <Col>
-            About me
-            </Col>
-        </Row>
+        <h6>About me</h6>
         <Row>
             <Col>
                 <img className="photo" src="photo.jpg"></img>
