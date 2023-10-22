@@ -34,7 +34,7 @@ function App() {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col style={{padding : '0'}}>
               <Routes>
                 <Route path="/about" element={<About />} />
               </Routes>
