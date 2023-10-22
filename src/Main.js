@@ -12,7 +12,7 @@ function Main() {
   const [displayIntro3, setDisplayIntro3] = useState(false);
   const intro3 = `빠르게 성장하는 개발자 박은진입니다. <br />
     새로운 것을 배워나가는 것을 좋아하며 개발에 흥미와 애정이 큽니다. <br />
-    배우고 깨달은 것들을 기록하는 것을 좋아하고, <br />
+    배우고 깨달은 것들을 항상 기록하고 있으며, <br />
     사람을 엄청 좋아해서 인간관계에 대한 스트레스가 거의 없는 편입니다.`;
 
   useEffect(() => {

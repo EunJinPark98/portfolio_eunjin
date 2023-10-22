@@ -68,6 +68,11 @@
   height: auto;
 }
 
+.menu-profile:hover, .menu-skills:hover,
+.menu-projects:hover, .menu-archive:hover{
+  transform: translateY(5px);
+}
+
 /* Main */
 .intro{
   padding: 150px 100px;
@@ -102,10 +107,12 @@
 /* About */
 .about-fr{
   font-family: 'TAEBAEKfont';
-  padding: 180px 200px;
+  padding: 150px 200px;
   background-color: #fff;
   border-radius: 25px;
-  height: 695px;
+  height: 595px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .photo{
   width: 190px;
@@ -128,6 +135,12 @@
 .skill-fr{
   padding: 24px 50px;
 }
+
+.font-box:hover, .back-box:hover,
+.version-box:hover, .design-box:hover{
+  transform: translateY(10px);
+}
+
 .skill-box{
   margin: 30px;
   padding: 20px 0;
@@ -211,6 +224,7 @@
   background-color: #EBCE64;
   border: 1px solid #000;
   transform: rotate(-30deg);
+  opacity: 0.9;
 }
 .project-cate-back{
   font-family: 'TAEBAEKfont';
@@ -223,6 +237,7 @@
   background-color: #F93121;
   border: 1px solid #000;
   transform: rotate(30deg);
+  opacity: 0.9;
 }
 .project-cate-team{
   font-family: 'TAEBAEKfont';
@@ -236,6 +251,7 @@
   border: 1px solid #fff;
   color: #fff;
   transform: rotate(30deg);
+  opacity: 0.9;
 }
 .badge img{
   height: 25px;
@@ -310,6 +326,10 @@
 .card-content{
   font-family: 'LINESeedKR-Bd';
   font-size: 1.2rem;
+}
+
+.tistory-card:hover, .github-card:hover, .blog-card:hover{
+  transform: translateY(10px);
 }
 
 

@@ -97,7 +97,21 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-
+                </Col>
+            </Row>
+            <Row className="project-box mb-5">
+                <div className="project-cate">Front-end</div>
+                <Col xs={7}>
+                    <h5>포트폴리오</h5>
+                    <p></p>
+                    <p>작업기간 : 2023.10.21~2023.10.23 (3일)</p>
+                    <p>React를 사용하여 포트폴리오 제작<br />
+                    </p>
+                    <div className="badge">
+                        <img src="badge_react.svg" />
+                        <img src="badge_js.svg" />
+                        <img src="badge_css.svg" />
+                    </div>
                 </Col>
             </Row>
         </div>
