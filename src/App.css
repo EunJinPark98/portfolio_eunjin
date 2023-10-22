@@ -19,6 +19,19 @@
   font-style: normal;
 }
 
+/* 수직 스크롤바 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F7F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EBCE64;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
 /* App */
 .App {
   text-align: center;
@@ -35,6 +48,7 @@
 
 .menu-bar p{
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .menu-photo{
@@ -59,37 +73,52 @@
 }
 
 .intro p{
+  margin-top: 70px;
   font-size: 1.3rem;
-  font-family: 'NanumBarunpen';
+  font-family: 'LINESeedKR-Bd';
 }
 
 .intro-3 {
   opacity: 0;
-  transition: opacity 2s; /* 필요에 따라 지속 시간을 조절하세요 */
+  transition: opacity 2s;
 }
-
 .intro-3.show {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 /* About */
 .about-fr{
   font-family: 'LINESeedKR-Bd';
   background-color: #fff;
-  padding: 30px 50px;
+  padding: 50px 200px;
 }
 .photo{
   width: 150px;
   height: auto;
   border-radius: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .about-fr table{
   font-size: 1.2rem;
+  width: 100%;
 }
+.info td{
+  line-height: 40px;
+  margin-left: 50px;
+}
+.profile{
+  text-align: center;
+}
+
+
+
+
+
 
 /* Skills */
 .skill-fr{
-  padding: 30px 50px
+  padding: 24px 50px;
 }
 .skill-box{
   margin: 30px;
@@ -103,8 +132,8 @@
   margin-top: -45px;
   margin-bottom: 50px;
   font-size: 2.3rem;
-  -webkit-text-stroke: 1px #000; /* 테두리 두께 및 색상 */
-  text-shadow: 1px #000; /* Firefox 및 표준 지원을 위한 속성 */
+  -webkit-text-stroke: 1px #000; 
+  text-shadow: 1px #000;
 }
 
 .front-logo3{

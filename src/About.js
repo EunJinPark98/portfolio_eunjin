@@ -4,9 +4,9 @@ function About(){
     return (
         <div className="about-fr">
             <Row>
-                <Col>
-                    <img className="photo" src="photo.jpg"></img>
-                    <table>
+                <Col className="profile">
+                    <img className="photo" src="photo.jpg" />
+                    <table className="info">
                         <tr>
                             <td>
                                 이름
@@ -57,15 +57,9 @@ function About(){
                         </tr>
                     </table>
                 </Col>
-                <Col>
-                    <div>
-                        <h6>경험/활동/교육</h6>
-                    </div>
-                </Col>
             </Row>
         </div>
 
-        
     
     )
 }
