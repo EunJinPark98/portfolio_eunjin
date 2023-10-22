@@ -37,8 +37,7 @@ function Archive(){
                 <Card.Body>
                     <Card.Title><img className="blog-logo" src="naverblog.png"></img>독서 블로그</Card.Title>
                     <Card.Text className="card-content">
-                        코딩 공부한 것들을 기록해오다가 <br />
-                        지금은 독서를 통해 배운 것들을 기록하고 있습니다.
+                        독서를 통해 배운 것들을 <br /> 기록하고 있습니다.
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>

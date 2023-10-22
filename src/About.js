@@ -9,7 +9,7 @@ function About(){
                         <Col>
                             <img className="photo" src="photo.jpg" />
                         </Col>
-                        <Col>
+                        <Col className="gray">
                             <p>이름</p>
                             <p>생년월일</p>
                             <p>주소지</p>

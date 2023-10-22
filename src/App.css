@@ -28,7 +28,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #EBCE64;
+  background: #1B1B2F;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,6 +37,12 @@
   text-align: center;
   font-size: 12px;
   background-color: #121212;
+}
+.title{
+  cursor: pointer;
+  color: #EBCE64;
+  -webkit-text-stroke: 1px #1B1B2F; 
+  text-shadow: 2px 2px 2px #fff;
 }
 
 .menu-bar{
@@ -49,7 +55,12 @@
 
 .menu-bar p{
   font-size: 1.5rem;
+  margin-bottom: 28px;
   cursor: pointer;
+  text-shadow: 2px 2px 2px gray;
+}
+.menu-bar p:last-child{
+  margin-bottom: 0;
 }
 
 .menu-photo{
@@ -93,21 +104,25 @@
   font-family: 'TAEBAEKfont';
   padding: 180px 200px;
   background-color: #fff;
+  border-radius: 25px;
   height: 695px;
 }
 .photo{
-  width: 180px;
+  width: 190px;
   height: auto;
-  border-radius: 20%;
+  border-radius: 10%;
   margin-top: 20px;
   margin-bottom: 50px;
+  border: 5px solid #1B1B2F;
 }
 .info p{
   font-size: 1.3rem;
-  color: #121212;
+  color: #1B1B2F;
 }
 
-
+.gray p{
+  color: rgb(77, 77, 77);
+}
 
 /* Skills */
 .skill-fr{
@@ -125,8 +140,8 @@
   margin-top: -45px;
   margin-bottom: 50px;
   font-size: 2.3rem;
-  -webkit-text-stroke: 1px #000; 
-  text-shadow: 1px #000;
+  -webkit-text-stroke: 1px #1B1B2F; 
+  text-shadow: 1px #1B1B2F;
 }
 
 .front-logo3{
@@ -181,6 +196,10 @@
   background-color: #fff;
   font-size: 1.1rem;
 }
+.project-box h5{
+  font-family: 'TAEBAEKfont';
+  margin-top: 10px;
+}
 .project-cate{
   font-family: 'TAEBAEKfont';
   position: absolute;
@@ -219,7 +238,7 @@
   transform: rotate(30deg);
 }
 .badge img{
-  height: 20px;
+  height: 25px;
 }
 .project-img{
   width: 320px;
@@ -268,7 +287,7 @@
 
 /* Archive */
 .archive-fr{
-  padding: 20px 50px;
+  padding: 50px;
   font-family: 'TAEBAEKfont';
 }
 .tistory-logo{
