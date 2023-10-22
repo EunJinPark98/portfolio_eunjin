@@ -9,19 +9,45 @@
   text-align: center;
   font-family: 'TAEBAEKfont';
   font-size: 12px;
+  background-color: #121212;
+  /* color: #fff; */
+}
+
+.content{
+  margin: 50px;
+  border: 4px solid #F93121;
+  border-radius: 30px;
+  background-color: #F9F7F7;
 }
 
 .menu-bar{
-  background-color: #F8D1D2;
-  height: 500px;
+  background-color: #1B1B2F;
+  height: 700px;
   padding: 50px 0;
+  color: #fff;
+}
+
+.menu-bar p{
+  font-size: 1.5rem;
 }
 
 .menu-photo{
-  width: 100px;
+  width: 200px;
   height: auto;
-  border: 2px solid #fff;
-  border-radius: 50%;
+}
+
+/* Main */
+.intro{
+  padding: 100px;
+  color: #e3e3e3;
+}
+
+.intro-1{
+  font-size: 4rem;
+}
+.intro-2{
+  font-size: 2rem;
+  opacity: 0.7;
 }
 
 /* About */
@@ -55,13 +81,30 @@
   height: auto;
 }
 
+/* Projects */
+
+
 /* Archive */
-.archive-logo{
-  width: 50px;
+.archive-fr{
+  padding: 0 80px;
 }
 .tistory-logo{
-  width: 100px;
+  width: 30px;
+  margin-right: 2px;
+}
+.github-logo{
+  width: 23px;
+  margin-right: 5px;
+}
+.blog-logo{
+  width: 23px;
+  margin-right: 6px;
+
 }
 .my-blog{
   width: 150px;
 }
+
+    
+
+    

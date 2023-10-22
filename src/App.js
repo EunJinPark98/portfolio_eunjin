@@ -7,6 +7,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import Skills from './Skills';
 import Archive from './Archive';
 import Projects from './Projects';
+import Main from './Main';
 
 function App() {
 
@@ -17,14 +18,21 @@ function App() {
       <Container fluid>
         <Row>
           <Col xs={3} className='menu-bar'>
-            <h6 className='mb-5'>Eunjin's portfolio</h6>
-            <p className='mb-3'><img className="menu-photo" src="photo.jpg"></img></p>
-            <p onClick={()=>{navigate('/about')}}>About me</p>
+            <h3 className='mb-5' onClick={()=>{navigate('/')}}>Eunjin's<br/> portfolio</h3>
+            <p className='mb-5'><img className="menu-photo" src="memoji1.png"></img></p>
+            <p onClick={()=>{navigate('/about')}}>About</p>
             <p onClick={()=>{navigate('/skills')}}>Skills</p>
             <p onClick={()=>{navigate('/projects')}}>Projects</p>
             <p onClick={()=>{navigate('/archive')}}>Archive</p>
           </Col>
-          <Col className='content'>
+          <Col>
+            <Row>
+              <Col>
+                <Routes>
+                  <Route path="/" element={<Main />} />
+                </Routes>
+              </Col>
+            </Row>
             <Row>
               <Col>
               <Routes>

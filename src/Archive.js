@@ -1,44 +1,52 @@
-import { Col, Row } from "react-bootstrap";
+import { Button, Card, Col, Row } from "react-bootstrap";
 
 function Archive(){
     return(
         <>
         <h6>Archive</h6>
-        <Row>
+        <Row className="archive-fr">
             <Col>
-                <div>
-                    <p><img className="archive-logo" src="tistory.png"></img></p>
-                    <p><img className="my-blog" src="myTistory.png"></img></p>
-                    <p>개발 블로그입니다. <br />
-                        개발과 관련된 배운 내용들을 모두 기록하여 <br />
-                        코딩 할 때 참고용으로 활용하고 있습니다. <br />
-                        팀 프로젝트 시 팀원들에게 공유하여 <br />
-                        팀원들이 티스토리를 참고해서 개발하고 있습니다.
-                    </p>
-                </div>
+                <Card>
+                <Card.Img variant="top" src="myTistory.png" />
+                <Card.Body>
+                    <Card.Title><img className="tistory-logo" src="tistory.png"></img>개발 블로그</Card.Title>
+                    <Card.Text>
+                        개발 관련해서 배운 내용들을 모두 기록하고 있습니다. <br />
+                        코딩할 때 참고용으로 많이 활용되고 <br />
+                        팀 프로젝트 시에도 팀원들에게 공유하여
+                        빠른 진행에 도움이 되고 있습니다.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div>
-                    <p><img className="archive-logo" src="github.png"></img></p>
-                    <p><img className="my-blog" src="myGithub.png"></img></p>
-                    <p>소스 코드 저장소입니다. <br />
-                        배운 내용들을 적용한 소스 코드 <br />
-                        팀 프로젝트 시 협업 <br />
-                        개인 프로젝트 소스 코드 <br />
-                        취미로 만들어본 프로그램 소스코드가 있습니다.
-                    </p>
-                </div>
+                <Card>
+                <Card.Img variant="top" src="myGithub.png" />
+                <Card.Body>
+                    <Card.Title><img className="github-logo" src="github2.png"></img>깃허브</Card.Title>
+                    <Card.Text>
+                        소스 코드 저장소입니다. <br />
+                        개인 프로젝트, 팀 프로젝트,
+                        공부하면서 만들어본 소스 코드들이 있습니다.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div>
-                    <p><img className="archive-logo" src="naverblog.png" /></p>
-                    <p><img className="my-blog" src="myBlog.jpg"></img></p>
-                    <p>독서 블로그입니다.<br />
+                <Card>
+                <Card.Img variant="top" src="myBlog.jpg" />
+                <Card.Body>
+                    <Card.Title><img className="blog-logo" src="naverblog.png"></img>독서 블로그</Card.Title>
+                    <Card.Text>
+                        독서 블로그입니다.<br />
                         코딩 공부한 것들을 기록해오다가 <br />
-                        티스토리를 운영하기 시작하고 <br />
-                        이 곳은 독서를 통해 배운 것들을 기록하고 있습니다.
-                    </p>
-                </div>
+                        지금은 독서를 통해 배운 것들을 기록하고 있습니다.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+                </Card>
             </Col>
         </Row>
         </>

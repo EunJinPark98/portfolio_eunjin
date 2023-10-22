@@ -4,6 +4,7 @@ function About(){
     return (
         <>
         <h6>About me</h6>
+        <div className='content'>
         <Row>
             <Col>
                 <img className="photo" src="photo.jpg"></img>
@@ -38,6 +39,8 @@ function About(){
             <Col>이메일</Col>
             <Col>obliviscor29@gamil.com</Col>
         </Row>
+        </div>
+        
         </>
     )
 }
