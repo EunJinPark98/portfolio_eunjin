@@ -20,7 +20,7 @@ function App() {
           <Col xs={3} className='menu-bar'>
             <h3 className='mb-5' onClick={()=>{navigate('/')}} style={{cursor : 'pointer'}}>Eunjin's<br/> portfolio</h3>
             <p className='mb-5'><img className="menu-photo" src="memoji1.png"></img></p>
-            <p onClick={()=>{navigate('/about')}}>About</p>
+            <p onClick={()=>{navigate('/about')}}>Profile</p>
             <p onClick={()=>{navigate('/skills')}}>Skills</p>
             <p onClick={()=>{navigate('/projects')}}>Projects</p>
             <p onClick={()=>{navigate('/archive')}}>Archive</p>

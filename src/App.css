@@ -44,6 +44,7 @@
   background-color: #1B1B2F;
   padding: 50px 0;
   color: #fff;
+  min-height: 695px;
 }
 
 .menu-bar p{
@@ -74,6 +75,7 @@
 
 .intro p{
   margin-top: 70px;
+  line-height: 40px;
   font-size: 1.3rem;
   font-family: 'LINESeedKR-Bd';
 }
@@ -88,31 +90,22 @@
 
 /* About */
 .about-fr{
-  font-family: 'LINESeedKR-Bd';
+  font-family: 'TAEBAEKfont';
+  padding: 180px 200px;
   background-color: #fff;
-  padding: 50px 200px;
+  height: 695px;
 }
 .photo{
-  width: 150px;
+  width: 180px;
   height: auto;
   border-radius: 20%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
-.about-fr table{
-  font-size: 1.2rem;
-  width: 100%;
+.info p{
+  font-size: 1.3rem;
+  color: #121212;
 }
-.info td{
-  line-height: 40px;
-  margin-left: 50px;
-}
-.profile{
-  text-align: center;
-}
-
-
-
 
 
 
