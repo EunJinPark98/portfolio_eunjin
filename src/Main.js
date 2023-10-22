@@ -7,14 +7,14 @@ function Main(){
 
     const [displayIntro2, setDisplayIntro2] = useState('');
     const [intro2Index, setIntro2Index] = useState(0);
-    const intro2 = "a rapidly growing web Dev.";
+    const intro2 = "a rapidly growing web dev.";
   
     useEffect(() => {
         if (intro1Index < intro1.length) {
           const timer = setTimeout(() => {
             setDisplayIntro1(intro1.substring(0, intro1Index + 1));
             setIntro1Index(intro1Index + 1);
-          }, 150);
+          }, 130);
           return () => clearTimeout(timer);
         }
       }, [intro1Index, intro1]);
@@ -32,10 +32,20 @@ function Main(){
     }, [intro1Index, intro2Index, intro2]);
     
       return (
+
+
         <div className="intro">
-          <h1 className="intro-1 mb-2">{displayIntro1}</h1>
-          <h3 className="intro-2">{displayIntro2}</h3>
+            <h1 className="intro-1 mb-2">{displayIntro1}</h1>
+            <h3 className="intro-2 mb-5">{displayIntro2}</h3>
+            <p>안녕하세요! 빠르게 성장하는 개발자 박은진입니다. <br />
+                새로운 것을 배워나가는 것을 좋아하며 개발에 흥미와 애정이 큽니다. <br />
+                일상에서 배우고 깨달은 것들을 기록하는 것을 좋아합니다. <br />
+                사람을 매우 좋아해서 인간관계에 대한 스트레스를 잘 느끼지 않는 편입니다.
+
+            </p>
         </div>
+
+
       );
 
 }
