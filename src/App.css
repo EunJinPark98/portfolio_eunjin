@@ -392,7 +392,6 @@
 }
 .project-img:hover + .project-view{
   transform: translateY(-10px);
-
 }
 .modal-title{
   font-family: 'TAEBAEKfont';
