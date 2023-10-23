@@ -32,6 +32,17 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
+.btn-primary {
+  font-family: 'TAEBAEKfont';
+  --bs-btn-color: #121212;
+  --bs-btn-bg: #EBCE64;
+  --bs-btn-border-color: #EBCE64;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #1B1B2F;
+  --bs-btn-hover-border-color: #1B1B2F;
+}
+
+
 /* App */
 .App {
   text-align: center;
@@ -114,14 +125,71 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.photo{
-  width: 190px;
-  height: auto;
-  border-radius: 10%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  border: 5px solid #1B1B2F;
+
+/* 프로필 뒤집기 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+.photo-fr {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  perspective: 500px;
+  cursor: pointer;
+}
+.photo-fr .flip {
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+  transform-style: preserve-3d;
+  border: 5px solid #1B1B2F;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+.about-fr:hover .flip {
+  transform: rotateY(180deg);
+}
+
+.photo-fr .flip > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.photo-fr .flip .photo2 {
+  z-index: 10;
+  padding-top: 10px;
+  width: 130%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.photo-fr .flip .photo {
+  z-index: 5;
+  transform: rotateY(180deg);
+}
+
+.photo{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+
+
+/*  */
+
+
+
 .info p{
   font-size: 1.3rem;
   color: #1B1B2F;
@@ -259,8 +327,8 @@
 .project-img{
   width: 320px;
   height: 300px;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
+  cursor: pointer;
 }
 .xexymix{
   width: 300px;
@@ -270,6 +338,21 @@
 .kakao{
   width: 300px;
   height: auto;
+}
+
+.portImg{
+  width: 320px;
+}
+
+.greenLibrary-img{
+  height: 200px;
+}
+
+.greenLibrary{
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .img-btn{
@@ -301,11 +384,43 @@
   cursor: pointer;
 }
 
+.project-view{
+  width: 70px;
+  position: absolute;
+  right: 40px;
+  bottom: -20px;
+}
+.project-img:hover + .project-view{
+  transform: translateY(-10px);
+
+}
+.modal-title{
+  font-family: 'TAEBAEKfont';
+  width: 100%;
+  text-align: center;
+}
+.modal-body{
+  height: 500px;
+}
+
+.greenMoa{
+  width: 300px;
+  height: auto;
+  margin-top: 50px;
+}
+
 /* Archive */
 .archive-fr{
-  padding: 50px;
+  padding: 100px 70px;
   font-family: 'TAEBAEKfont';
+  display: flex;
+  align-items: end;
 }
+
+.myTistory{
+  width: 500px;
+}
+
 .tistory-logo{
   width: 30px;
   margin-right: 2px;
@@ -333,14 +448,5 @@
 }
 
 
-.btn-primary {
-  font-family: 'TAEBAEKfont';
-  --bs-btn-color: #121212;
-  --bs-btn-bg: #EBCE64;
-  --bs-btn-border-color: #EBCE64;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1B1B2F;
-  --bs-btn-hover-border-color: #1B1B2F;
-}
 
     

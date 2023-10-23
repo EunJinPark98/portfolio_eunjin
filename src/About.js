@@ -7,7 +7,12 @@ function About(){
                 <Col>
                     <Row className="info">
                         <Col>
-                            <img className="photo" src="photo.jpg" />
+                            <div className="photo-fr">
+                                <div className="flip">
+                                    <img className="photo2" src="photo2.png" />
+                                    <img className="photo" src="photo.jpg" />
+                                </div>
+                            </div>
                         </Col>
                         <Col className="gray">
                             <p>이름</p>

@@ -9,12 +9,10 @@ function Archive(){
                 <Card.Body>
                     <Card.Title><img className="tistory-logo" src="tistory.png"></img>개발 블로그</Card.Title>
                     <Card.Text className="card-content">
-                        개발 관련해서 배운 내용들을 모두 기록하고 있습니다. <br />
-                        코딩할 때 참고용으로 많이 활용되고 <br />
-                        팀 프로젝트 시에도 팀원들에게 공유하여
-                        빠른 진행에 도움이 되고 있습니다.
+                        개발과 관련해서 배운 내용들을<br /> 모두 기록하고 있습니다. <br />
+                        혼자 코딩할 때나 팀 프로젝트 시<br /> 참고용으로 활용됩니다.<br />
                     </Card.Text>
-                    <Button variant="primary">보러가기</Button>
+                    <Button variant="primary" onClick={() => { window.open('https://bagun-coding.tistory.com/') }}>보러가기</Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -24,22 +22,22 @@ function Archive(){
                 <Card.Body>
                     <Card.Title><img className="github-logo" src="github2.png"></img>깃허브</Card.Title>
                     <Card.Text className="card-content">
-                        개인 프로젝트, 팀 프로젝트,
+                        개인 프로젝트, 팀 프로젝트, <br />
                         공부하면서 만들어본 소스 코드들이 있습니다.
                     </Card.Text>
-                    <Button variant="primary">보러가기</Button>
+                    <Button variant="primary" onClick={() => { window.open('https://github.com/EunJinPark98') }}>보러가기</Button>
                 </Card.Body>
                 </Card>
             </Col>
             <Col>
                 <Card className="blog-card">
-                <Card.Img variant="top" src="myBlog.jpg" />
+                <Card.Img variant="top" src="myBlog.png" />
                 <Card.Body>
                     <Card.Title><img className="blog-logo" src="naverblog.png"></img>독서 블로그</Card.Title>
                     <Card.Text className="card-content">
                         독서를 통해 배운 것들을 <br /> 기록하고 있습니다.
                     </Card.Text>
-                    <Button variant="primary">보러가기</Button>
+                    <Button variant="primary" onClick={() => { window.open('https://blog.naver.com/obliviscor29') }}>보러가기</Button>
                 </Card.Body>
                 </Card>
             </Col>

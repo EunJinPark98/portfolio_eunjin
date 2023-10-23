@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Modal, Row } from "react-bootstrap";
 
 function Projects(){
-    // let [currentIdx, setCurrentIdx] = useState(0);
-    // let [xexyImg] = useState(['xexymix.png', 'xexymix2.png', 'xexymix3.png', 'xexymix4.png'])
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+
 
     return(
         <div className="project-fr">
@@ -26,10 +27,12 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div className="project-img">
+                    <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
                         <img className="xexymix" src="xexymix.png" />
                     </div>
+                    <img className="project-view" src="cursor_click.png" />
                 </Col>
+                
             </Row>
             <Row className="project-box mb-5">
                 <div className="project-cate">Front-end</div>
@@ -38,7 +41,7 @@ function Projects(){
                     <p>카카오엔터프라이즈 컨텐츠와 카카오페이 디자인을 결합해서 만든 반응형 웹 사이트</p>
                     <p>작업기간 : 2023.07.03~2023.07.24 (2주)</p>
                     <p>모바일 320px,  태블릿 768px,  PC 1920px <br />
-                        Figma를 사용하여 사이즈별 디자인했고, <br />
+                        Figma를 사용하여 반응형 디자인, <br />
                         jQuery를 사용하여 각종 탭 효과를 넣었습니다. <br />
                     </p>
                     <div className="badge">
@@ -50,9 +53,10 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div className="project-img">
+                    <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>
                         <img className="kakao" src="kakao.png" />
                     </div>
+                    <img className="project-view" src="cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -61,10 +65,9 @@ function Projects(){
                     <h5>그린의 서재</h5>
                     <p>스프링부트 웹 개발 프로젝트</p>
                     <p>작업기간 : 2023.09.04~2023.09.25 (3주)</p>
-                    <p> 로그인 / 회원가입 - 유효성 검사, 시큐리티 적용 <br />
-                        관리자 - 상품 등록, 삭제 <br />
+                    <p> 로그인 / 회원가입<br />
+                        관리자 - 상품 등록 <br />
                         회원 - 상품 상세보기, 장바구니, 구매 <br />
-                        페이징 처리
                     </p>
                     <div className="badge">
                         <img src="badge_html.svg" />
@@ -76,7 +79,10 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-
+                    <div className="project-img greenLibrary-img" onClick={()=>{setShow(true)}}>
+                        <img className="greenLibrary" src="greenLibrary.png" />
+                    </div>
+                    <img className="project-view" src="cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -97,6 +103,9 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
+                    <div>
+                        <img className="greenMoa" src="GreenMoa.png" />
+                    </div>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -113,10 +122,25 @@ function Projects(){
                         <img src="badge_css.svg" />
                     </div>
                 </Col>
+                <Col>
+                    <img className="portImg" src="portfolio.png" />
+                </Col>
             </Row>
+
+            <Modal size="lg" show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title className="modal-title">그린의 서재</Modal.Title>
+                </Modal.Header>
+                <Modal.Body className="modal-body">
+                    시연 영상 넣을 예정
+                </Modal.Body>
+            </Modal>
+
+
         </div>
     )
 
 }
 
 export default Projects;
+
