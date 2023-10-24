@@ -122,7 +122,7 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <img className="portImg" src="/portfolio.png" />
+                    <img className="portImg" src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
                 </Col>
             </Row>
 
