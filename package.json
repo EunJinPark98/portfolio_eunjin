@@ -9,6 +9,7 @@
     "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
     "compass": "^0.1.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
@@ -23,8 +24,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }, "homepage": "https://eunjinpark98.github.io/portfolio_eunjin/",
   "eslintConfig": {
     "extends": [
       "react-app",
