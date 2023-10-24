@@ -321,6 +321,9 @@
   transform: rotate(30deg);
   opacity: 0.9;
 }
+.badge{
+  margin-left: -10px;
+}
 .badge img{
   height: 25px;
 }
@@ -397,15 +400,52 @@
   font-family: 'TAEBAEKfont';
   width: 100%;
   text-align: center;
+  color: #EBCE64;
+  text-shadow: 2px 2px 2px #1B1B2F;
 }
 .modal-body{
-  height: 500px;
+  height: 450px;
+  text-align: center;
 }
 
 .greenMoa{
   width: 300px;
   height: auto;
   margin-top: 50px;
+}
+
+.library-show{
+  width: 760px;
+  height: auto;
+}
+
+
+.carousel-item{
+  height: 400px;
+}
+
+.carousel-caption {
+  font-family: 'LINESeedKR-Bd';
+  right: 15%;
+  bottom: 0;
+  left: 15%;
+  padding-bottom: 0;
+  color: #000;
+  text-align: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: none;
+  width: 40px;
+  height: 40px;
+  border-right: 7px solid #EBCE64;
+  border-bottom: 7px solid #EBCE64;
+}
+.carousel-control-next-icon{
+  transform: rotate(-45deg);
+}
+.carousel-control-prev-icon{
+  transform: rotate(135deg);
 }
 
 /* Archive */
