@@ -153,7 +153,7 @@ function Projects(){
                         <Carousel.Item>
                             <img className="library-show" src="https://eunjinpark98.github.io/portfolio_eunjin/library_cate.gif" />
                             <Carousel.Caption>
-                            <h5>검색 조회 기능</h5>
+                            <h5>검색 조회</h5>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
