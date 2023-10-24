@@ -9,8 +9,8 @@ function About(){
                         <Col>
                             <div className="photo-fr">
                                 <div className="flip">
-                                    <img className="photo2" src="photo2.png" />
-                                    <img className="photo" src="photo.jpg" />
+                                    <img className="photo2" src="/photo2.png" />
+                                    <img className="photo" src="/photo.jpg" />
                                 </div>
                             </div>
                         </Col>

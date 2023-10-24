@@ -19,18 +19,18 @@ function Projects(){
                         웹 표준을 준수하여 기존 웹 사이트에서 많이 사용되는 기능들을 구현했습니다.
                     </p>
                     <div className="badge">
-                        <img src="badge_html.svg" />
-                        <img src="badge_css.svg" />
-                        <img src="badge_js.svg" />
-                        <img src="badge_jquery.svg" />
-                        <img src="badge_figma.svg" />
+                        <img src="/badge_html.svg" />
+                        <img src="/badge_css.svg" />
+                        <img src="/badge_js.svg" />
+                        <img src="/badge_jquery.svg" />
+                        <img src="/badge_figma.svg" />
                     </div>
                 </Col>
                 <Col>
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
-                        <img className="xexymix" src="xexymix.png" />
+                        <img className="xexymix" src="/xexymix.png" />
                     </div>
-                    <img className="project-view" src="cursor_click.png" />
+                    <img className="project-view" src="/cursor_click.png" />
                 </Col>
                 
             </Row>
@@ -45,18 +45,18 @@ function Projects(){
                         jQuery를 사용한 각종 탭 효과를 넣었습니다. <br />
                     </p>
                     <div className="badge">
-                        <img src="badge_html.svg" />
-                        <img src="badge_css.svg" />
-                        <img src="badge_js.svg" />
-                        <img src="badge_jquery.svg" />
-                        <img src="badge_figma.svg" />
+                        <img src="/badge_html.svg" />
+                        <img src="/badge_css.svg" />
+                        <img src="/badge_js.svg" />
+                        <img src="/badge_jquery.svg" />
+                        <img src="/badge_figma.svg" />
                     </div>
                 </Col>
                 <Col>
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>
                         <img className="kakao" src="kakao.png" />
                     </div>
-                    <img className="project-view" src="cursor_click.png"/>
+                    <img className="project-view" src="/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -69,19 +69,19 @@ function Projects(){
                         상품 상세보기, 장바구니, 구매, 상품 등록, 조회, 페이징
                     </p>
                     <div className="badge">
-                        <img src="badge_html.svg" />
-                        <img src="badge_css.svg" />
-                        <img src="badge_js.svg" />
-                        <img src="badge_java.svg" />
-                        <img src="badge_springboot.svg" />
-                        <img src="badge_oracle.svg" />
+                        <img src="/badge_html.svg" />
+                        <img src="/badge_css.svg" />
+                        <img src="/badge_js.svg" />
+                        <img src="/badge_java.svg" />
+                        <img src="/badge_springboot.svg" />
+                        <img src="/badge_oracle.svg" />
                     </div>
                 </Col>
                 <Col>
                     <div className="project-img greenLibrary-img" onClick={()=>{setShow(true)}}>
-                        <img className="greenLibrary" src="greenLibrary.png" />
+                        <img className="greenLibrary" src="/greenLibrary.png" />
                     </div>
-                    <img className="project-view" src="cursor_click.png"/>
+                    <img className="project-view" src="/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -92,18 +92,18 @@ function Projects(){
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
                     <p>웹소켓 채팅, 게시판, 캘린더, 쪽지 등 아직 개발 중!</p>
                     <div className="badge">
-                        <img src="badge_html.svg" />
-                        <img src="badge_css.svg" />
-                        <img src="badge_js.svg" />
-                        <img src="badge_jquery.svg" />
-                        <img src="badge_java.svg" />
-                        <img src="badge_springboot.svg" />
-                        <img src="badge_oracle.svg" />
+                        <img src="/badge_html.svg" />
+                        <img src="/badge_css.svg" />
+                        <img src="/badge_js.svg" />
+                        <img src="/badge_jquery.svg" />
+                        <img src="/badge_java.svg" />
+                        <img src="/badge_springboot.svg" />
+                        <img src="/badge_oracle.svg" />
                     </div>
                 </Col>
                 <Col>
                     <div>
-                        <img className="greenMoa" src="GreenMoa.png" />
+                        <img className="greenMoa" src="/GreenMoa.png" />
                     </div>
                 </Col>
             </Row>
@@ -116,13 +116,13 @@ function Projects(){
                     <p>React 부트스트랩을 사용하여 포트폴리오 제작<br />
                     </p>
                     <div className="badge">
-                        <img src="badge_react.svg" />
-                        <img src="badge_js.svg" />
-                        <img src="badge_css.svg" />
+                        <img src="/badge_react.svg" />
+                        <img src="/badge_js.svg" />
+                        <img src="/badge_css.svg" />
                     </div>
                 </Col>
                 <Col>
-                    <img className="portImg" src="portfolio.png" />
+                    <img className="portImg" src="/portfolio.png" />
                 </Col>
             </Row>
 
