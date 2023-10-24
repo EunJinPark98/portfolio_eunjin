@@ -19,7 +19,7 @@ function App() {
         <Row>
           <Col xs={3} className='menu-bar'>
             <h1 className='title mb-2' onClick={()=>{navigate('/')}}>Eunjin's<br/>Portfolio</h1>
-            <p className='mb-5'><img className="menu-photo" src="/memoji1.png" alt="미모티콘"></img></p>
+            <p className='mb-5'><img className="menu-photo" src="/memoji1.png"></img></p>
             <p className='menu-profile' onClick={()=>{navigate('/about')}}>Profile</p>
             <p className='menu-skills' onClick={()=>{navigate('/skills')}}>Skills</p>
             <p className='menu-projects' onClick={()=>{navigate('/projects')}}>Projects</p>
