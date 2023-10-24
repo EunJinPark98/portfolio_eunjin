@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Carousel, Col, Modal, Row } from "react-bootstrap";
+import { Carousel, Col, Modal, Row } from "react-bootstrap";
 
 function Projects(){
     const [show, setShow] = useState(false);
