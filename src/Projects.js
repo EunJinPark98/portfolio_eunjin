@@ -90,7 +90,7 @@ function Projects(){
                     <h5>GREEN MOA</h5>
                     <p>싸이월드 + 메타버스 느낌의 학급 커뮤니티</p>
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
-                    <p>일정관리, 게시판, 채팅, 쪽지 등 아직 개발 중!</p>
+                    <p>웹소켓 채팅, 게시판, 캘린더, 쪽지 등 아직 개발 중!</p>
                     <div className="badge">
                         <img src="badge_html.svg" />
                         <img src="badge_css.svg" />
