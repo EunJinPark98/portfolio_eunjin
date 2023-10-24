@@ -30,7 +30,7 @@ function Projects(){
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
                         <img className="xexymix" src="https://eunjinpark98.github.io/portfolio_eunjin/xexymix.png" />
                     </div>
-                    <img className="project-view" src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png" />
+                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png" />
                 </Col>
                 
             </Row>
@@ -56,7 +56,7 @@ function Projects(){
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>
                         <img className="kakao" src="https://eunjinpark98.github.io/portfolio_eunjin/kakao.png" />
                     </div>
-                    <img className="project-view" src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
+                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -81,7 +81,7 @@ function Projects(){
                     <div className="project-img greenLibrary-img" onClick={()=>{setShow(true)}}>
                         <img className="greenLibrary" src="https://eunjinpark98.github.io/portfolio_eunjin/greenLibrary.png" />
                     </div>
-                    <img className="project-view" src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
+                    <img className="project-view" onClick={()=>{setShow(true)}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -103,7 +103,7 @@ function Projects(){
                 </Col>
                 <Col>
                     <div>
-                        <img className="greenMoa" src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
+                        <img className="greenMoa" onClick={() => { window.open('https://github.com/EunJinPark98/GREENMOA') }} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
                     </div>
                 </Col>
             </Row>
