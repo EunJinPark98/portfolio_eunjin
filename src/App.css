@@ -19,10 +19,12 @@
   font-style: normal;
 }
 
-/* 수직 스크롤바 */
+
+/* 스크롤바 */
 ::-webkit-scrollbar {
   width: 12px;
 }
+
 ::-webkit-scrollbar-track {
   background: #F9F7F7;
 }
@@ -42,68 +44,65 @@
   --bs-btn-hover-border-color: #1B1B2F;
 }
 
+html{
+  background-color: #121212;
+}
+
+/*모바일*/
+.menu-bar {
+  display: none;
+}
+
+
+/* 메뉴 */
+.bg-body-tertiary{
+  background-color: #EBCE64 !important;
+}
+.menu-bar-mo {
+  padding: 0;
+}
+#basic-navbar-nav{
+  font-family: 'LINESeedKR-Bd';
+  font-size: 0.9rem;
+}
 
 /* App */
 .App {
+  font-family: 'NanumBarunpen';
   text-align: center;
   font-size: 12px;
   background-color: #121212;
 }
-.title{
+
+.title {
+  font-family: 'TAEBAEKfont';
   cursor: pointer;
   color: #EBCE64;
-  -webkit-text-stroke: 1px #1B1B2F; 
-  text-shadow: 2px 2px 2px #fff;
-}
-
-.menu-bar{
-  font-family: 'TAEBAEKfont';
-  background-color: #1B1B2F;
-  padding: 50px 0;
-  color: #fff;
-  min-height: 695px;
-}
-
-.menu-bar p{
-  font-size: 1.5rem;
-  margin-bottom: 28px;
-  cursor: pointer;
-  text-shadow: 2px 2px 2px gray;
-}
-.menu-bar p:last-child{
-  margin-bottom: 0;
-}
-
-.menu-photo{
-  width: 200px;
-  height: auto;
-}
-
-.menu-profile:hover, .menu-skills:hover,
-.menu-projects:hover, .menu-archive:hover{
-  transform: translateY(5px);
+  -webkit-text-stroke: 1px #1B1B2F;
+  text-shadow: 2px 2px 2px #1B1B2F;
 }
 
 /* Main */
-.intro{
-  padding: 150px 100px;
+.intro {
+  padding: 40px 20px;
   color: #e3e3e3;
 }
 
-.intro-1{
-  font-size: 4rem;
+.intro-1 {
+  font-size: 1.5rem;
   font-family: 'TAEBAEKfont';
 }
-.intro-2{
-  font-size: 2rem;
+
+.intro-2 {
+  font-size: 1rem;
   opacity: 0.7;
   font-family: 'TAEBAEKfont';
 }
 
-.intro p{
-  margin-top: 70px;
-  line-height: 40px;
-  font-size: 1.3rem;
+.intro p {
+  margin-top: 50px;
+  line-height: 20px;
+  font-size: 0.8rem;
   font-family: 'LINESeedKR-Bd';
 }
 
@@ -111,12 +110,18 @@
   opacity: 0;
   transition: opacity 2s;
 }
+
 .intro-3.show {
   opacity: 0.9;
 }
 
+.main-photo-mo{
+  width: 50%;
+  height: auto;
+}
+
 /* About */
-.about-fr{
+.about-fr {
   font-family: 'TAEBAEKfont';
   padding: 150px 200px;
   background-color: #fff;
@@ -141,6 +146,7 @@
   perspective: 500px;
   cursor: pointer;
 }
+
 .photo-fr .flip {
   width: 100%;
   height: 100%;
@@ -155,7 +161,7 @@
   transform: rotateY(180deg);
 }
 
-.photo-fr .flip > img {
+.photo-fr .flip>img {
   position: absolute;
   top: 0;
   left: 0;
@@ -178,7 +184,7 @@
   transform: rotateY(180deg);
 }
 
-.photo{
+.photo {
   width: 100%;
   height: 100%;
   border-radius: 16px;
@@ -190,73 +196,79 @@
 
 
 
-.info p{
+.info p {
   font-size: 1.3rem;
   color: #1B1B2F;
 }
 
-.gray p{
+.gray p {
   color: rgb(77, 77, 77);
 }
 
 /* Skills */
-.skill-fr{
+.skill-fr {
   padding: 24px 50px;
 }
 
-.font-box:hover, .back-box:hover,
-.version-box:hover, .design-box:hover{
+.font-box:hover,
+.back-box:hover,
+.version-box:hover,
+.design-box:hover {
   transform: translateY(10px);
 }
 
-.skill-box{
+.skill-box {
   margin: 30px;
   padding: 20px 0;
   border-radius: 30px;
   background-color: #fff;
 }
-.skill-cate{
+
+.skill-cate {
   font-family: 'TAEBAEKfont';
   color: #EBCE64;
   margin-top: -45px;
   margin-bottom: 50px;
   font-size: 2.3rem;
-  -webkit-text-stroke: 1px #1B1B2F; 
+  -webkit-text-stroke: 1px #1B1B2F;
   text-shadow: 1px #1B1B2F;
 }
 
-.front-logo3{
+.front-logo3 {
   width: 300px;
   height: auto;
   margin-top: -10px;
 }
-.front-logo{
+
+.front-logo {
   width: 100px;
   height: auto;
 }
 
-.back-logo{
+.back-logo {
   width: 200px;
   height: auto;
 }
 
-.java-logo{
+.java-logo {
   width: 140px;
   height: auto;
   margin-top: -10px;
   margin-bottom: 20px;
 }
 
-.version-logo{
+.version-logo {
   width: 120px;
   height: auto;
   margin-bottom: 10px;
 }
-.version-logo2{
+
+.version-logo2 {
   width: 80px;
   height: auto;
 }
-.design-logo{
+
+.design-logo {
   width: 120px;
   height: auto;
   margin-top: -20px;
@@ -264,11 +276,12 @@
 
 
 /* Projects */
-.project-fr{
+.project-fr {
   padding: 30px 50px;
   font-family: 'LINESeedKR-Bd';
 }
-.project-box{
+
+.project-box {
   position: relative;
   text-align: left;
   margin: 30px;
@@ -277,11 +290,13 @@
   background-color: #fff;
   font-size: 1.1rem;
 }
-.project-box h5{
+
+.project-box h5 {
   font-family: 'TAEBAEKfont';
   margin-top: 10px;
 }
-.project-cate{
+
+.project-cate {
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
@@ -294,7 +309,8 @@
   transform: rotate(-30deg);
   opacity: 0.9;
 }
-.project-cate-back{
+
+.project-cate-back {
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
@@ -307,7 +323,8 @@
   transform: rotate(30deg);
   opacity: 0.9;
 }
-.project-cate-team{
+
+.project-cate-team {
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
@@ -321,44 +338,48 @@
   transform: rotate(30deg);
   opacity: 0.9;
 }
-.badge{
+
+.badge {
   margin-left: -10px;
 }
-.badge img{
+
+.badge img {
   height: 25px;
 }
-.project-img{
+
+.project-img {
   width: 320px;
   height: 300px;
   overflow: hidden;
   cursor: pointer;
 }
-.xexymix{
+
+.xexymix {
   width: 300px;
   height: auto;
 }
 
-.kakao{
+.kakao {
   width: 300px;
   height: auto;
 }
 
-.portImg{
+.portImg {
   width: 320px;
 }
 
-.greenLibrary-img{
+.greenLibrary-img {
   height: 200px;
 }
 
-.greenLibrary{
+.greenLibrary {
   margin-top: 20px;
   width: 300px;
   height: 200px;
   cursor: pointer;
 }
 
-.img-btn{
+.img-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -366,7 +387,7 @@
   height: 50px;
 }
 
-.prev{
+.prev {
   text-indent: -9999px;
   width: 20px;
   height: 20px;
@@ -376,7 +397,8 @@
   border-radius: 3px;
   cursor: pointer;
 }
-.next{
+
+.next {
   text-indent: -9999px;
   width: 20px;
   height: 20px;
@@ -387,40 +409,43 @@
   cursor: pointer;
 }
 
-.project-view{
+.project-view {
   width: 70px;
   position: absolute;
   right: 40px;
   bottom: -20px;
 }
-.project-img:hover + .project-view{
+
+.project-img:hover+.project-view {
   transform: translateY(-10px);
 }
-.modal-title{
+
+.modal-title {
   font-family: 'TAEBAEKfont';
   width: 100%;
   text-align: center;
   color: #EBCE64;
   text-shadow: 2px 2px 2px #1B1B2F;
 }
-.modal-body{
+
+.modal-body {
   height: 450px;
   text-align: center;
 }
 
-.greenMoa{
+.greenMoa {
   width: 300px;
   height: auto;
   margin-top: 50px;
 }
 
-.library-show{
+.library-show {
   width: 760px;
   height: auto;
 }
 
 
-.carousel-item{
+.carousel-item {
   height: 400px;
 }
 
@@ -434,58 +459,552 @@
   text-align: center;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-image: none;
   width: 40px;
   height: 40px;
   border-right: 7px solid #EBCE64;
   border-bottom: 7px solid #EBCE64;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
   transform: rotate(-45deg);
 }
-.carousel-control-prev-icon{
+
+.carousel-control-prev-icon {
   transform: rotate(135deg);
 }
 
 /* Archive */
-.archive-fr{
+.archive-fr {
   padding: 100px 70px;
   font-family: 'TAEBAEKfont';
   display: flex;
   align-items: end;
 }
 
-.myTistory{
+.myTistory {
   width: 500px;
 }
 
-.tistory-logo{
+.tistory-logo {
   width: 30px;
   margin-right: 2px;
 }
-.github-logo{
+
+.github-logo {
   width: 23px;
   margin-right: 5px;
 }
-.blog-logo{
+
+.blog-logo {
   width: 23px;
   margin-right: 6px;
 
 }
-.my-blog{
+
+.my-blog {
   width: 150px;
 }
 
-.card-content{
+.card-content {
   font-family: 'LINESeedKR-Bd';
   font-size: 1.2rem;
 }
 
-.tistory-card:hover, .github-card:hover, .blog-card:hover{
+.tistory-card:hover,
+.github-card:hover,
+.blog-card:hover {
   transform: translateY(10px);
 }
 
 
 
-    
+
+
+
+/* PC */
+@media screen and (min-width:1024px) {
+  .menu-bar-mo, .main-photo-mo {
+    display: none;
+  }
+
+
+  /* App */
+  .App {
+    text-align: center;
+    font-size: 12px;
+    background-color: #121212;
+  }
+
+  .title {
+    cursor: pointer;
+    color: #EBCE64;
+    -webkit-text-stroke: 1px #1B1B2F;
+    text-shadow: 2px 2px 2px #fff;
+  }
+
+  .menu-bar {
+    display: block;
+    font-family: 'TAEBAEKfont';
+    background-color: #1B1B2F;
+    padding: 50px 0;
+    color: #fff;
+  }
+
+  .menu-bar p {
+    font-size: 1.5rem;
+    margin-bottom: 28px;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px gray;
+  }
+
+  .menu-bar p:last-child {
+    margin-bottom: 0;
+  }
+
+  .menu-photo {
+    width: 200px;
+    height: auto;
+  }
+
+  .menu-profile:hover,
+  .menu-skills:hover,
+  .menu-projects:hover,
+  .menu-archive:hover {
+    transform: translateY(5px);
+  }
+
+  /* Main */
+  .intro {
+    padding: 150px 100px;
+    color: #e3e3e3;
+  }
+
+  .intro-1 {
+    font-size: 4rem;
+    font-family: 'TAEBAEKfont';
+  }
+
+  .intro-2 {
+    font-size: 2rem;
+    opacity: 0.7;
+    font-family: 'TAEBAEKfont';
+  }
+
+  .intro p {
+    margin-top: 70px;
+    line-height: 40px;
+    font-size: 1.3rem;
+    font-family: 'LINESeedKR-Bd';
+  }
+
+  .intro-3 {
+    opacity: 0;
+    transition: opacity 2s;
+  }
+
+  .intro-3.show {
+    opacity: 0.9;
+  }
+
+  /* About */
+  .about-fr {
+    font-family: 'TAEBAEKfont';
+    padding: 150px 200px;
+    background-color: #fff;
+    border-radius: 25px;
+    height: 595px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* 프로필 뒤집기 */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .photo-fr {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    perspective: 500px;
+    cursor: pointer;
+  }
+
+  .photo-fr .flip {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+    transform-style: preserve-3d;
+    border: 5px solid #1B1B2F;
+    border-radius: 10%;
+    background-color: transparent;
+  }
+
+  .about-fr:hover .flip {
+    transform: rotateY(180deg);
+  }
+
+  .photo-fr .flip>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+  }
+
+  .photo-fr .flip .photo2 {
+    z-index: 10;
+    padding-top: 10px;
+    width: 130%;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+
+  .photo-fr .flip .photo {
+    z-index: 5;
+    transform: rotateY(180deg);
+  }
+
+  .photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+
+
+
+  /*  */
+
+
+
+  .info p {
+    font-size: 1.3rem;
+    color: #1B1B2F;
+  }
+
+  .gray p {
+    color: rgb(77, 77, 77);
+  }
+
+  /* Skills */
+  .skill-fr {
+    padding: 24px 50px;
+  }
+
+  .font-box:hover,
+  .back-box:hover,
+  .version-box:hover,
+  .design-box:hover {
+    transform: translateY(10px);
+  }
+
+  .skill-box {
+    margin: 30px;
+    padding: 20px 0;
+    border-radius: 30px;
+    background-color: #fff;
+  }
+
+  .skill-cate {
+    font-family: 'TAEBAEKfont';
+    color: #EBCE64;
+    margin-top: -45px;
+    margin-bottom: 50px;
+    font-size: 2.3rem;
+    -webkit-text-stroke: 1px #1B1B2F;
+    text-shadow: 1px #1B1B2F;
+  }
+
+  .front-logo3 {
+    width: 300px;
+    height: auto;
+    margin-top: -10px;
+  }
+
+  .front-logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .back-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .java-logo {
+    width: 140px;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .version-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .version-logo2 {
+    width: 80px;
+    height: auto;
+  }
+
+  .design-logo {
+    width: 120px;
+    height: auto;
+    margin-top: -20px;
+  }
+
+
+  /* Projects */
+  .project-fr {
+    padding: 30px 50px;
+    font-family: 'LINESeedKR-Bd';
+  }
+
+  .project-box {
+    position: relative;
+    text-align: left;
+    margin: 30px;
+    padding: 35px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 1.1rem;
+  }
+
+  .project-box h5 {
+    font-family: 'TAEBAEKfont';
+    margin-top: 10px;
+  }
+
+  .project-cate {
+    font-family: 'TAEBAEKfont';
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    width: 130px;
+    padding: 2px;
+    text-align: center;
+    background-color: #EBCE64;
+    border: 1px solid #000;
+    transform: rotate(-30deg);
+    opacity: 0.9;
+  }
+
+  .project-cate-back {
+    font-family: 'TAEBAEKfont';
+    position: absolute;
+    top: 5px;
+    right: -30px;
+    width: 130px;
+    padding: 2px;
+    text-align: center;
+    background-color: #F93121;
+    border: 1px solid #000;
+    transform: rotate(30deg);
+    opacity: 0.9;
+  }
+
+  .project-cate-team {
+    font-family: 'TAEBAEKfont';
+    position: absolute;
+    top: 5px;
+    right: -30px;
+    width: 150px;
+    padding: 2px;
+    text-align: center;
+    background-color: #1B1B2F;
+    border: 1px solid #fff;
+    color: #fff;
+    transform: rotate(30deg);
+    opacity: 0.9;
+  }
+
+  .badge {
+    margin-left: -10px;
+  }
+
+  .badge img {
+    height: 25px;
+  }
+
+  .project-img {
+    width: 320px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .xexymix {
+    width: 300px;
+    height: auto;
+  }
+
+  .kakao {
+    width: 300px;
+    height: auto;
+  }
+
+  .portImg {
+    width: 320px;
+  }
+
+  .greenLibrary-img {
+    height: 200px;
+  }
+
+  .greenLibrary {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+  }
+
+  .img-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+  }
+
+  .prev {
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    border-left: 4px solid #EBCE64;
+    border-bottom: 4px solid #EBCE64;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .next {
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    border-right: 4px solid #EBCE64;
+    border-bottom: 4px solid #EBCE64;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .project-view {
+    width: 70px;
+    position: absolute;
+    right: 40px;
+    bottom: -20px;
+  }
+
+  .project-img:hover+.project-view {
+    transform: translateY(-10px);
+  }
+
+  .modal-title {
+    font-family: 'TAEBAEKfont';
+    width: 100%;
+    text-align: center;
+    color: #EBCE64;
+    text-shadow: 2px 2px 2px #1B1B2F;
+  }
+
+  .modal-body {
+    height: 450px;
+    text-align: center;
+  }
+
+  .greenMoa {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .library-show {
+    width: 760px;
+    height: auto;
+  }
+
+
+  .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-caption {
+    font-family: 'LINESeedKR-Bd';
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+    padding-bottom: 0;
+    color: #000;
+    text-align: center;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-image: none;
+    width: 40px;
+    height: 40px;
+    border-right: 7px solid #EBCE64;
+    border-bottom: 7px solid #EBCE64;
+  }
+
+  .carousel-control-next-icon {
+    transform: rotate(-45deg);
+  }
+
+  .carousel-control-prev-icon {
+    transform: rotate(135deg);
+  }
+
+  /* Archive */
+  .archive-fr {
+    padding: 100px 70px;
+    font-family: 'TAEBAEKfont';
+    display: flex;
+    align-items: end;
+  }
+
+  .myTistory {
+    width: 500px;
+  }
+
+  .tistory-logo {
+    width: 30px;
+    margin-right: 2px;
+  }
+
+  .github-logo {
+    width: 23px;
+    margin-right: 5px;
+  }
+
+  .blog-logo {
+    width: 23px;
+    margin-right: 6px;
+
+  }
+
+  .my-blog {
+    width: 150px;
+  }
+
+  .card-content {
+    font-family: 'LINESeedKR-Bd';
+    font-size: 1.2rem;
+  }
+
+  .tistory-card:hover,
+  .github-card:hover,
+  .blog-card:hover {
+    transform: translateY(10px);
+  }
+}
