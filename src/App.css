@@ -45,7 +45,7 @@
 }
 
 html{
-  background-color: #121212;
+  background-color: #fff;
 }
 
 /*모바일*/
@@ -71,7 +71,7 @@ html{
   font-family: 'NanumBarunpen';
   text-align: center;
   font-size: 12px;
-  background-color: #121212;
+  background-color: #fff;
 }
 
 .title {
@@ -79,13 +79,15 @@ html{
   cursor: pointer;
   color: #EBCE64;
   -webkit-text-stroke: 1px #1B1B2F;
-  text-shadow: 2px 2px 2px #1B1B2F;
+  text-shadow: 1px 2px 2px #fff;
 }
-
+.navbar-brand:focus, .navbar-brand:hover {
+  color: #EBCE64 !important;
+}
 /* 모바일 Main */
 .intro {
   padding: 40px 20px;
-  color: #e3e3e3;
+  color: #1B1B2F;
 }
 
 .intro-1 {
@@ -100,9 +102,9 @@ html{
 }
 
 .intro p {
-  margin-top: 50px;
-  line-height: 20px;
-  font-size: 0.8rem;
+  margin-top: 40px;
+  line-height: 25px;
+  font-size: 0.9rem;
   font-family: 'LINESeedKR-Bd';
 }
 
@@ -117,6 +119,7 @@ html{
 
 .main-photo-mo{
   width: 50%;
+  max-width: 200px;
   height: auto;
 }
 
@@ -220,7 +223,7 @@ th{
 .skill-box {
   padding: 20px 0;
   border-radius: 30px;
-  background-color: #fff;
+  border: 3px solid lightgray;
 }
 
 .skill-cate {
@@ -531,6 +534,11 @@ th{
 
 /* PC */
 @media screen and (min-width:1024px) {
+  html{
+    background-color: #121212;
+  }
+
+
   .menu-bar-mo, .main-photo-mo, .info-mo {
     display: none;
   }
@@ -708,6 +716,7 @@ th{
     padding: 20px 0;
     border-radius: 30px;
     background-color: #fff;
+    border: none;
   }
 
   .skill-cate {
