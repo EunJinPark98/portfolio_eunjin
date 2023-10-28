@@ -54,7 +54,7 @@ html{
 }
 
 
-/* 메뉴 */
+/* 모바일 메뉴 */
 .bg-body-tertiary{
   background-color: #EBCE64 !important;
 }
@@ -66,7 +66,7 @@ html{
   font-size: 0.9rem;
 }
 
-/* App */
+/* 모바일 App */
 .App {
   font-family: 'NanumBarunpen';
   text-align: center;
@@ -82,7 +82,7 @@ html{
   text-shadow: 2px 2px 2px #1B1B2F;
 }
 
-/* Main */
+/* 모바일 Main */
 .intro {
   padding: 40px 20px;
   color: #e3e3e3;
@@ -120,28 +120,30 @@ html{
   height: auto;
 }
 
-/* About */
+/* 모바일 About */
 .about-fr {
-  font-family: 'TAEBAEKfont';
-  padding: 150px 200px;
+  padding: 40px 20px;
   background-color: #fff;
-  border-radius: 25px;
-  height: 595px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
-/* 프로필 뒤집기 */
+/* 프로필 사진 */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+.profile-photo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 .photo-fr {
+  display: flex;
+  justify-content: center;
   position: relative;
-  width: 200px;
-  height: 250px;
+  width: 145px;
+  height: 180px;
   border-radius: 20px;
   perspective: 500px;
   cursor: pointer;
@@ -173,10 +175,10 @@ html{
 
 .photo-fr .flip .photo2 {
   z-index: 10;
-  padding-top: 10px;
+  padding-top: 5px;
   width: 130%;
   margin-left: -10px;
-  margin-top: -10px;
+  margin-top: -6px;
 }
 
 .photo-fr .flip .photo {
@@ -187,22 +189,23 @@ html{
 .photo {
   width: 100%;
   height: 100%;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
-
-
-/*  */
-
-
-
-.info p {
-  font-size: 1.3rem;
-  color: #1B1B2F;
+table {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
 }
 
-.gray p {
-  color: rgb(77, 77, 77);
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+th{
+  font-family: 'LINESeedKR-Bd';
+  margin-right: 20px;
 }
 
 /* Skills */
@@ -526,7 +529,7 @@ html{
 
 /* PC */
 @media screen and (min-width:1024px) {
-  .menu-bar-mo, .main-photo-mo {
+  .menu-bar-mo, .main-photo-mo, .info-mo {
     display: none;
   }
 
@@ -610,6 +613,7 @@ html{
   }
 
   /* About */
+
   .about-fr {
     font-family: 'TAEBAEKfont';
     padding: 150px 200px;
@@ -680,19 +684,6 @@ html{
   }
 
 
-
-  /*  */
-
-
-
-  .info p {
-    font-size: 1.3rem;
-    color: #1B1B2F;
-  }
-
-  .gray p {
-    color: rgb(77, 77, 77);
-  }
 
   /* Skills */
   .skill-fr {
