@@ -280,7 +280,7 @@ th{
 }
 
 
-/* Projects */
+/* Projects 모바일*/
 .project-fr {
   padding: 30px 50px;
   font-family: 'LINESeedKR-Bd';
@@ -692,7 +692,7 @@ th{
     display: none;
   }
   .skill-fr {
-    display: block;
+    display: flex;
     padding: 24px 50px;
   }
 
