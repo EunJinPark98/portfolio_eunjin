@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 function About(){
     return (
         <div className="about-fr">
-            <div className="profile-photo mb-4">
+            <div className="profile-photo">
                 <div className="photo-fr">
                     <div className="flip">
                         <img className="photo2" src="https://eunjinpark98.github.io/portfolio_eunjin/photo2.png" />
@@ -36,8 +36,6 @@ function About(){
                 </table>
             </div>
         </div>
-
-    
     )
 }
 

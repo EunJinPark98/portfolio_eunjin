@@ -139,6 +139,8 @@ html{
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .photo-fr {
@@ -157,7 +159,7 @@ html{
   height: 100%;
   transition: all .5s;
   transform-style: preserve-3d;
-  border: 5px solid lightgray;
+  border: 5px solid #EBCE64;
   border-radius: 10%;
   background-color: transparent;
 }
@@ -422,8 +424,6 @@ th{
   bottom: -10px;
 }
 
-
-
 .modal-title {
   font-family: 'TAEBAEKfont';
   width: 100%;
@@ -448,7 +448,6 @@ th{
   width: 100%;
   height: auto;
 }
-
 
 .carousel-item {
   height: 400px;
@@ -544,23 +543,16 @@ th{
     background-color: #121212;
   }
 
-
   .menu-bar-mo, .main-photo-mo, .info-mo {
     display: none;
   }
-
-
+  
   /* App */
   .App {
-    text-align: center;
-    font-size: 12px;
     background-color: #121212;
   }
 
   .title {
-    cursor: pointer;
-    color: #EBCE64;
-    -webkit-text-stroke: 1px #1B1B2F;
     text-shadow: 2px 2px 2px #fff;
   }
 
@@ -603,102 +595,76 @@ th{
 
   .intro-1 {
     font-size: 4rem;
-    font-family: 'TAEBAEKfont';
   }
 
   .intro-2 {
     font-size: 2rem;
     opacity: 0.7;
-    font-family: 'TAEBAEKfont';
   }
 
   .intro p {
     margin-top: 70px;
     line-height: 40px;
     font-size: 1.3rem;
-    font-family: 'LINESeedKR-Bd';
-  }
-
-  .intro-3 {
-    opacity: 0;
-    transition: opacity 2s;
-  }
-
-  .intro-3.show {
-    opacity: 0.9;
   }
 
   /* About */
-
   .about-fr {
-    font-family: 'TAEBAEKfont';
-    padding: 150px 200px;
     background-color: #fff;
     border-radius: 25px;
     height: 595px;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-
-  /* 프로필 뒤집기 */
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  .photo-fr {
-    position: relative;
-    width: 200px;
-    height: 250px;
-    border-radius: 20px;
-    perspective: 500px;
-    cursor: pointer;
-  }
-
-  .photo-fr .flip {
-    width: 100%;
-    height: 100%;
-    transition: all .5s;
-    transform-style: preserve-3d;
-    border: 5px solid #1B1B2F;
-    border-radius: 10%;
-    background-color: transparent;
-  }
-
-  .about-fr:hover .flip {
-    transform: rotateY(180deg);
-  }
-
-  .photo-fr .flip>img {
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    backface-visibility: hidden;
+  }
+
+  .profile-photo{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .photo-fr {
+    width: 200px;
+    height: 250px;
+  }
+
+  .photo-fr .flip {
+    border: 5px solid #1B1B2F;
   }
 
   .photo-fr .flip .photo2 {
-    z-index: 10;
     padding-top: 10px;
-    width: 130%;
-    margin-left: -10px;
     margin-top: -10px;
   }
 
-  .photo-fr .flip .photo {
-    z-index: 5;
-    transform: rotateY(180deg);
-  }
-
   .photo {
-    width: 100%;
-    height: 100%;
     border-radius: 16px;
   }
-
+  .profile-photo{
+    width: 45%;
+    margin-right: -30px;
+  }
+  .profile-info{
+    margin-left: -30px;
+    width: 55%;
+  }
+  table {
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  }
+  
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  th{
+    margin-right: 20px;
+  }
 
 
   /* Skills */
@@ -719,59 +685,47 @@ th{
 
   .skill-box {
     margin: 30px;
-    padding: 20px 0;
     border-radius: 30px;
     background-color: #fff;
     border: none;
   }
 
   .skill-cate {
-    font-family: 'TAEBAEKfont';
-    color: #EBCE64;
     margin-top: -45px;
     margin-bottom: 50px;
     font-size: 2.3rem;
-    -webkit-text-stroke: 1px #1B1B2F;
-    text-shadow: 1px #1B1B2F;
   }
 
   .front-logo3 {
     width: 300px;
-    height: auto;
     margin-top: -10px;
   }
 
   .front-logo {
     width: 100px;
-    height: auto;
   }
 
   .back-logo {
     width: 200px;
-    height: auto;
   }
 
   .java-logo {
     width: 140px;
-    height: auto;
     margin-top: -10px;
     margin-bottom: 20px;
   }
 
   .version-logo {
     width: 120px;
-    height: auto;
     margin-bottom: 10px;
   }
 
   .version-logo2 {
     width: 80px;
-    height: auto;
   }
 
   .design-logo {
     width: 120px;
-    height: auto;
     margin-top: -20px;
   }
 
@@ -787,8 +741,6 @@ th{
   }
 
   .project-box {
-    position: relative;
-    text-align: left;
     margin: 30px;
     padding: 35px;
     border-radius: 30px;
@@ -798,51 +750,21 @@ th{
   }
 
   .project-box h5 {
-    font-family: 'TAEBAEKfont';
     margin-top: 10px;
   }
 
   .project-cate {
-    font-family: 'TAEBAEKfont';
-    position: absolute;
-    top: 5px;
     left: -30px;
     width: 130px;
-    padding: 2px;
-    text-align: center;
-    background-color: #EBCE64;
-    border: 1px solid #000;
-    transform: rotate(-30deg);
-    opacity: 0.9;
   }
 
   .project-cate-back {
-    font-family: 'TAEBAEKfont';
-    position: absolute;
-    top: 5px;
     right: -30px;
     width: 130px;
-    padding: 2px;
-    text-align: center;
-    background-color: #F93121;
-    border: 1px solid #000;
-    transform: rotate(30deg);
-    opacity: 0.9;
   }
 
   .project-cate-team {
-    font-family: 'TAEBAEKfont';
-    position: absolute;
-    top: 5px;
-    right: -30px;
     width: 150px;
-    padding: 2px;
-    text-align: center;
-    background-color: #1B1B2F;
-    border: 1px solid #fff;
-    color: #fff;
-    transform: rotate(30deg);
-    opacity: 0.9;
   }
 
   .badge {
@@ -856,68 +778,26 @@ th{
   .project-img {
     width: 320px;
     height: 300px;
-    overflow: hidden;
-    cursor: pointer;
   }
 
   .xexymix {
     width: 300px;
-    height: auto;
   }
 
   .kakao {
     width: 300px;
-    height: auto;
   }
 
   .portImg {
     width: 320px;
   }
 
-  .greenLibrary-img {
-    height: 200px;
-  }
-
   .greenLibrary {
     margin-top: 20px;
-    width: 300px;
-    height: 200px;
-    cursor: pointer;
-  }
-
-  .img-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    height: 50px;
-  }
-
-  .prev {
-    text-indent: -9999px;
-    width: 20px;
-    height: 20px;
-    transform: rotate(45deg);
-    border-left: 4px solid #EBCE64;
-    border-bottom: 4px solid #EBCE64;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-
-  .next {
-    text-indent: -9999px;
-    width: 20px;
-    height: 20px;
-    transform: rotate(-45deg);
-    border-right: 4px solid #EBCE64;
-    border-bottom: 4px solid #EBCE64;
-    border-radius: 3px;
-    cursor: pointer;
   }
 
   .project-view {
     width: 70px;
-    position: absolute;
     right: 40px;
     bottom: -20px;
   }
@@ -926,31 +806,18 @@ th{
     transform: translateY(-10px);
   }
 
-  .modal-title {
-    font-family: 'TAEBAEKfont';
-    width: 100%;
-    text-align: center;
-    color: #EBCE64;
-    text-shadow: 2px 2px 2px #1B1B2F;
-  }
-
   .modal-body {
     height: 450px;
-    text-align: center;
   }
 
   .greenMoa {
     width: 300px;
-    height: auto;
     margin-top: 50px;
   }
 
   .library-show {
     width: 760px;
-    height: auto;
   }
-
-
 
   .library-txt h5{
     font-size: 1.5rem;
@@ -994,25 +861,6 @@ th{
     width: 500px;
   }
 
-  .tistory-logo {
-    width: 30px;
-    margin-right: 2px;
-  }
-
-  .github-logo {
-    width: 23px;
-    margin-right: 5px;
-  }
-
-  .blog-logo {
-    width: 23px;
-    margin-right: 6px;
-
-  }
-
-  .my-blog {
-    width: 150px;
-  }
 
   .card-content {
     font-family: 'LINESeedKR-Bd';
