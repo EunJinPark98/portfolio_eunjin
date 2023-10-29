@@ -234,6 +234,8 @@ function Projects(){
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
+                    </div>
+                    <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_java.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_springboot.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_oracle.svg" />
@@ -258,6 +260,8 @@ function Projects(){
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_jquery.svg" />
+                    </div>
+                    <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_java.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_springboot.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_oracle.svg" />
@@ -302,19 +306,19 @@ function Projects(){
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="library-show" src="https://eunjinpark98.github.io/portfolio_eunjin/library_buycart.gif" />
-                            <Carousel.Caption>
+                            <Carousel.Caption className="library-txt">
                             <h5>장바구니/구매</h5>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="library-show" src="https://eunjinpark98.github.io/portfolio_eunjin/library_admin.gif" />
-                            <Carousel.Caption>
+                            <Carousel.Caption className="library-txt">
                             <h5>관리자 페이지 상품 등록</h5>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="library-show" src="https://eunjinpark98.github.io/portfolio_eunjin/library_cate.gif" />
-                            <Carousel.Caption>
+                            <Carousel.Caption className="library-txt"> 
                             <h5>검색 조회</h5>
                             </Carousel.Caption>
                         </Carousel.Item>

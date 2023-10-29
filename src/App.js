@@ -45,7 +45,7 @@ function App() {
             <p className='menu-projects' onClick={() => { navigate('/portfolio_eunjin/projects') }}>Projects</p>
             <p className='menu-archive' onClick={() => { navigate('/portfolio_eunjin/archive') }}>Archive</p>
           </Col>
-          <Col>
+          <Col xs={9}>
             <Row>
               <Col>
                 <Routes>
