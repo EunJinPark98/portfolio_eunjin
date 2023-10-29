@@ -79,7 +79,6 @@ html{
   cursor: pointer;
   color: #EBCE64;
   -webkit-text-stroke: 1px #1B1B2F;
-  text-shadow: 1px 2px 2px #fff;
 }
 .navbar-brand:focus, .navbar-brand:hover {
   color: #EBCE64 !important;
@@ -157,7 +156,7 @@ html{
   height: 100%;
   transition: all .5s;
   transform-style: preserve-3d;
-  border: 5px solid #1B1B2F;
+  border: 5px solid lightgray;
   border-radius: 10%;
   background-color: transparent;
 }
@@ -284,18 +283,14 @@ th{
 
 
 /* Projects 모바일*/
-.project-fr {
-  padding: 30px 50px;
-  font-family: 'LINESeedKR-Bd';
-}
 
 .project-box {
   position: relative;
   text-align: left;
-  margin: 30px;
-  padding: 35px;
+  margin: 20px 10px;
+  padding: 20px 0;
   border-radius: 30px;
-  background-color: #fff;
+  border: 3px solid lightgray;
   font-size: 1.1rem;
 }
 
@@ -772,7 +767,7 @@ th{
 
   /* Projects */
   .project-fr {
-    padding: 30px 50px;
+    padding: 30px 40px;
     font-family: 'LINESeedKR-Bd';
   }
 
@@ -784,6 +779,7 @@ th{
     border-radius: 30px;
     background-color: #fff;
     font-size: 1.1rem;
+    border: none;
   }
 
   .project-box h5 {

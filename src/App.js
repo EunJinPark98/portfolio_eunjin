@@ -8,26 +8,28 @@ import Skills from './Skills';
 import Archive from './Archive';
 import Projects from './Projects';
 import Main from './Main';
+import { useState } from 'react';
 
 function App() {
 
   let navigate = useNavigate();
+  const [expanded, setExpanded] = useState(false)
 
   return (
     <div className="App">
       <Container fluid>
         <Row>
           <Col className='menu-bar-mo'>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
               <Container>
                 <Navbar.Brand className='title' onClick={() => { navigate('/portfolio_eunjin') }}>Eunjin's Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/about') }}>Profile</Nav.Link>
-                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/skills') }}>Skills</Nav.Link>
-                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/projects') }}>Projects</Nav.Link>
-                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/archive') }}>Archive</Nav.Link>
+                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/about'); setExpanded(false) }}>Profile</Nav.Link>
+                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/skills'); setExpanded(false) }}>Skills</Nav.Link>
+                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/projects'); setExpanded(false) }}>Projects</Nav.Link>
+                    <Nav.Link onClick={() => { navigate('/portfolio_eunjin/archive'); setExpanded(false) }}>Archive</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
