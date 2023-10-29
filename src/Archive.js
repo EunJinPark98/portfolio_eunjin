@@ -15,8 +15,6 @@ function Archive(){
                     <Button variant="primary" onClick={() => { window.open('https://bagun-coding.tistory.com/') }}>보러가기</Button>
                 </Card.Body>
                 </Card>
-            </Col>
-            <Col>
                 <Card className="github-card">
                 <Card.Img variant="top" src="https://eunjinpark98.github.io/portfolio_eunjin/myGithub.png" />
                 <Card.Body>
@@ -28,8 +26,6 @@ function Archive(){
                     <Button variant="primary" onClick={() => { window.open('https://github.com/EunJinPark98') }}>보러가기</Button>
                 </Card.Body>
                 </Card>
-            </Col>
-            <Col>
                 <Card className="blog-card">
                 <Card.Img variant="top" src="https://eunjinpark98.github.io/portfolio_eunjin/myBlog.png" />
                 <Card.Body>
