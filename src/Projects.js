@@ -269,10 +269,9 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                <div>
+                    <div>
                     <img className="greenMoa" onClick={() => {alert('아직 제작중입니다!')}} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
                     </div>
-                    <img className="project-view" onClick={()=>{alert('아직 제작중입니다!')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
