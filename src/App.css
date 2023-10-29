@@ -283,28 +283,29 @@ th{
 
 
 /* Projects 모바일*/
-
+.project-fr{
+  display: none;
+}
 .project-box {
   position: relative;
   text-align: left;
-  margin: 20px 10px;
+  margin: 30px 10px;
   padding: 20px 0;
   border-radius: 30px;
   border: 3px solid lightgray;
-  font-size: 1.1rem;
 }
 
 .project-box h5 {
   font-family: 'TAEBAEKfont';
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .project-cate {
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
-  left: -30px;
-  width: 130px;
+  left: -20px;
+  width: 90px;
   padding: 2px;
   text-align: center;
   background-color: #EBCE64;
@@ -317,8 +318,8 @@ th{
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
-  right: -30px;
-  width: 130px;
+  right: -20px;
+  width: 90px;
   padding: 2px;
   text-align: center;
   background-color: #F93121;
@@ -332,7 +333,7 @@ th{
   position: absolute;
   top: 5px;
   right: -30px;
-  width: 150px;
+  width: 110px;
   padding: 2px;
   text-align: center;
   background-color: #1B1B2F;
@@ -343,16 +344,18 @@ th{
 }
 
 .badge {
-  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .badge img {
-  height: 25px;
+  height: 14px;
 }
 
 .project-img {
-  width: 320px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -368,7 +371,7 @@ th{
 }
 
 .portImg {
-  width: 320px;
+  width: 250px;
 }
 
 .greenLibrary-img {
@@ -376,7 +379,6 @@ th{
 }
 
 .greenLibrary {
-  margin-top: 20px;
   width: 300px;
   height: 200px;
   cursor: pointer;
@@ -413,15 +415,13 @@ th{
 }
 
 .project-view {
-  width: 70px;
+  width: 45px;
   position: absolute;
-  right: 40px;
-  bottom: -20px;
+  right: 0px;
+  bottom: -10px;
 }
 
-.project-img:hover+.project-view {
-  transform: translateY(-10px);
-}
+
 
 .modal-title {
   font-family: 'TAEBAEKfont';
@@ -432,18 +432,19 @@ th{
 }
 
 .modal-body {
-  height: 450px;
+  padding-top: 50px;
+  height: 300px;
   text-align: center;
 }
 
 .greenMoa {
-  width: 300px;
+  width: 250px;
   height: auto;
-  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .library-show {
-  width: 760px;
+  width: 100%;
   height: auto;
 }
 
@@ -455,7 +456,7 @@ th{
 .carousel-caption {
   font-family: 'LINESeedKR-Bd';
   right: 15%;
-  bottom: 0;
+  top: 170px;
   left: 15%;
   padding-bottom: 0;
   color: #000;
@@ -465,8 +466,8 @@ th{
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-image: none;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-right: 7px solid #EBCE64;
   border-bottom: 7px solid #EBCE64;
 }
