@@ -92,7 +92,7 @@ function Projects(){
                 <div className="project-cate-team">Team-Project</div>
                 <Col>
                     <h5>GREEN MOA</h5>
-                    <p>싸이월드 + 메타버스 느낌의 학급 커뮤니티</p>
+                    <p>학급 커뮤니티</p>
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
                     <p>캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
                         게시판, 캘린더, 쪽지, 투두리스트</p>
@@ -252,9 +252,10 @@ function Projects(){
                 <div className="project-cate-team">Team-Project</div>
                 <Col xs={7}>
                     <h5>GREEN MOA</h5>
-                    <p>싸이월드 + 메타버스 느낌의 학급 커뮤니티</p>
+                    <p>학급 커뮤니티</p>
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
-                    <p>웹소켓 채팅, 게시판, 캘린더, 쪽지 등 아직 개발 중!</p>
+                    <p>캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
+                        게시판, 캘린더, 쪽지, 투두리스트</p>
                     <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
@@ -268,9 +269,10 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div>
-                        <img className="greenMoa" onClick={() => { window.open('https://github.com/EunJinPark98/GREENMOA') }} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
+                <div>
+                    <img className="greenMoa" onClick={() => {alert('아직 제작중입니다!')}} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
                     </div>
+                    <img className="project-view" onClick={()=>{alert('아직 제작중입니다!')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
