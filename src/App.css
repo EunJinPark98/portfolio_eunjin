@@ -80,6 +80,7 @@ html{
   color: #EBCE64;
   -webkit-text-stroke: 1px #1B1B2F;
 }
+
 .navbar-brand:focus, .navbar-brand:hover {
   color: #EBCE64 !important;
 }
@@ -481,15 +482,27 @@ th{
 }
 
 /* Archive 모바일 */
+
 .archive-fr {
-  padding: 100px 70px;
-  font-family: 'TAEBAEKfont';
-  display: flex;
-  align-items: end;
+  display: none;
 }
 
-.myTistory {
-  width: 500px;
+.archive-title{
+  font-family: 'TAEBAEKfont';
+  color: #EBCE64;
+  -webkit-text-stroke: 1px #1B1B2F;
+  text-shadow: 2px 2px 2px lightgray;
+  margin-bottom: 10px;
+}
+
+.archive-fr-mo{
+  padding: 30px 10px;
+}
+.card{
+  margin-bottom: 50px;
+}
+.card-title {
+  font-family: 'LINESeedKR-Bd';
 }
 
 .tistory-logo {
@@ -513,14 +526,11 @@ th{
 }
 
 .card-content {
-  font-family: 'LINESeedKR-Bd';
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.tistory-card:hover,
-.github-card:hover,
-.blog-card:hover {
-  transform: translateY(10px);
+.btn-primary{
+  color: #fff;
 }
 
 
@@ -970,6 +980,9 @@ th{
   }
 
   /* Archive */
+  .archive-fr-mo{
+    display: none;
+  }
   .archive-fr {
     padding: 100px 70px;
     font-family: 'TAEBAEKfont';
