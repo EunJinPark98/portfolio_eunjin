@@ -7,7 +7,8 @@
 <br>
 
 ## 모바일 버전
-![image](https://github.com/EunJinPark98/portfolio_eunjin/assets/120006805/eab163b4-697b-4da3-8f5c-175b7d4816ea)
 ![image](https://github.com/EunJinPark98/portfolio_eunjin/assets/120006805/cedc8561-f771-4525-b590-623f15b18323)
+![image](https://github.com/EunJinPark98/portfolio_eunjin/assets/120006805/b63fd6e7-a71e-4efb-b641-74760d683fcd)
+
 
 
