@@ -280,7 +280,7 @@ function Projects(){
                     <h5>포트폴리오</h5>
                     <p></p>
                     <p>작업기간 : 2023.10.21~2023.10.24 (4일)</p>
-                    <p>React 부트스트랩을 사용하여 포트폴리오 제작<br />
+                    <p>React로 제작한 포트폴리오 사이트<br />
                     </p>
                     <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_react.svg" />

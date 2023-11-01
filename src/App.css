@@ -562,6 +562,7 @@ th{
     background-color: #1B1B2F;
     padding: 50px 0;
     color: #fff;
+    min-height: 100vh;
   }
 
   .menu-bar p {
