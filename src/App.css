@@ -567,7 +567,7 @@ th{
 
   .menu-bar p {
     font-size: 1.5rem;
-    margin-bottom: 28px;
+    margin-top: 35px;
     cursor: pointer;
     text-shadow: 2px 2px 2px gray;
   }
@@ -579,6 +579,7 @@ th{
   .menu-photo {
     width: 200px;
     height: auto;
+    margin-bottom: 20px;
   }
 
   .menu-profile:hover,
@@ -590,7 +591,7 @@ th{
 
   /* Main */
   .intro {
-    padding: 150px 100px;
+    padding: 180px 100px;
     color: #e3e3e3;
   }
 
@@ -614,7 +615,7 @@ th{
     background-color: #fff;
     border-radius: 25px;
     height: 595px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
