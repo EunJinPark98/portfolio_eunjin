@@ -321,13 +321,13 @@ th{
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
-  right: -20px;
+  left: -20px;
   width: 90px;
   padding: 2px;
   text-align: center;
   background-color: #F93121;
   border: 1px solid #000;
-  transform: rotate(30deg);
+  transform: rotate(-30deg);
   opacity: 0.9;
 }
 
@@ -335,14 +335,14 @@ th{
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
-  right: -30px;
+  left: -30px;
   width: 110px;
   padding: 2px;
   text-align: center;
   background-color: #1B1B2F;
   border: 1px solid #fff;
   color: #fff;
-  transform: rotate(30deg);
+  transform: rotate(-30deg);
   opacity: 0.9;
 }
 
@@ -781,6 +781,9 @@ th{
     width: 320px;
     height: 300px;
   }
+  .greenLibrary-img{
+    height: 200px;
+  }
 
   .xexymix {
     width: 300px;
@@ -814,7 +817,6 @@ th{
 
   .greenMoa {
     width: 300px;
-    margin-top: 50px;
   }
 
   .library-show {
