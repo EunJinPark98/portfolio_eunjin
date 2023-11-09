@@ -113,9 +113,9 @@ function Projects(){
                 </Col>
                 <Col>
                     <div>
-                        <img className="greenMoa" onClick={() => {window.open('https://chocolate-candy-d12.notion.site/GREEN-MOA-6f38ea7751fb4dbebf8b5058bef14e99')}} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
+                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
                     </div>
-                    <img className="project-view" onClick={()=>{window.open('https://chocolate-candy-d12.notion.site/GREEN-MOA-6f38ea7751fb4dbebf8b5058bef14e99')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
+                    <img className="project-view" onClick={()=>{window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -274,9 +274,9 @@ function Projects(){
                 </Col>
                 <Col>
                     <div className="project-img" style={{height : '260px'}}>
-                        <img className="greenMoa" onClick={() => {window.open('https://chocolate-candy-d12.notion.site/GREEN-MOA-6f38ea7751fb4dbebf8b5058bef14e99')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMain.png" />
+                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMain.png" />
                     </div>
-                    <img className="project-view" onClick={()=> {window.open('https://chocolate-candy-d12.notion.site/GREEN-MOA-6f38ea7751fb4dbebf8b5058bef14e99')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
+                    <img className="project-view" onClick={()=> {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
