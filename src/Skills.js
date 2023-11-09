@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 import { Col, Row } from "react-bootstrap";
+
 
 function Skills(){
     return(
@@ -64,8 +66,8 @@ function Skills(){
             <Col>
                 <Row>
                     <Col className="skill-box version-box" style={{marginTop : '50px'}}>
-                        <h1 className="skill-cate">Version Control</h1>
-                        <p><img className="version-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/git.png"></img></p>
+                        <h1 className="skill-cate mb-5">Version Control</h1>
+                        <p><img className="version-logo mb-5" src="https://eunjinpark98.github.io/portfolio_eunjin/git.png"></img></p>
                         <p><img className="version-logo2" src="https://eunjinpark98.github.io/portfolio_eunjin/github.png"></img></p>
                     </Col>
                 </Row>
