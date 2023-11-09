@@ -20,7 +20,8 @@ function Skills(){
                 <Row>
                     <Col className="skill-box back-box mb-5">
                         <h1 className="skill-cate">Backend</h1>
-                        <p><img className="java-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/Java.png"></img></p>
+                        <p><img className="java-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/Java.png"></img>
+                        <img className="java-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/node-logo.png"></img></p>
                         <img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/spring.svg" style={{marginBottom : '10px'}}></img>
                         <img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/springboot.png"></img> <br />
                         <img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/oracle.png"></img>
@@ -56,7 +57,7 @@ function Skills(){
             </Col>
             <Col className="skill-box back-box">
                 <h1 className="skill-cate">Backend</h1>
-                <p><img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/Java.png"></img></p>
+                <p><img className="java-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/Java.png"></img></p>
                 <p><img className="java-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/node-logo.png"></img></p>
                 <p><img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/spring.svg" style={{marginBottom : '10px'}}></img></p>
                 <p><img className="back-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/springboot.png"></img></p>

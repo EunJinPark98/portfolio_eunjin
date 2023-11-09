@@ -262,6 +262,8 @@ th{
   width: 90px;
   height: auto;
   margin-top: -30px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .version-logo {
