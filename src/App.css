@@ -333,12 +333,12 @@ th{
   opacity: 0.9;
 }
 
-.project-cate-team {
+.project-cate-full {
   font-family: 'TAEBAEKfont';
   position: absolute;
   top: 5px;
-  left: -30px;
-  width: 110px;
+  left: -20px;
+  width: 100px;
   padding: 2px;
   text-align: center;
   background-color: #1B1B2F;
@@ -767,7 +767,7 @@ th{
     width: 130px;
   }
 
-  .project-cate-team {
+  .project-cate-full {
     width: 150px;
   }
 

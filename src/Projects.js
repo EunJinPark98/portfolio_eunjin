@@ -91,7 +91,7 @@ function Projects(){
                 </Col>
             </Row>
             <Row className="project-box mb-5">
-                <div className="project-cate-team">Team-Project</div>
+                <div className="project-cate-full">Full-Stack</div>
                 <Col>
                     <h5>GREEN MOA</h5>
                     <p>학급 커뮤니티</p>
@@ -252,7 +252,7 @@ function Projects(){
                 </Col>
             </Row>
             <Row className="project-box mb-5">
-                <div className="project-cate-team">Team-Project</div>
+                <div className="project-cate-full">Full-Stack</div>
                 <Col xs={7}>
                     <h5>GREEN MOA</h5>
                     <p>학급 커뮤니티</p>
