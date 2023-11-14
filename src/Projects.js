@@ -273,8 +273,8 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div className="project-img" style={{height : '260px'}}>
-                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
+                    <div className="project-img" >
+                        <img className="greenMoa" style={{width : '330px', marginTop : '20px'}} onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
                     </div>
                     <img className="project-view" onClick={()=> {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
@@ -294,7 +294,7 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <img className="portImg" src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
+                    <img className="portImg"  style={{marginTop : '20px'}}  src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
                 </Col>
             </Row>
 
