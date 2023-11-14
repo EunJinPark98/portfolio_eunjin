@@ -98,7 +98,7 @@ function Projects(){
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
                     <p>개발자 : 박은진, 김진우, 신협진, 이윤주 (4명)</p>
                     <p>웹 소켓으로 캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
-                        게시판, 캘린더, 쪽지, 투두리스트</p>
+                        게시판, 캘린더, 쪽지, 투두리스트 등</p>
                     <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
@@ -113,7 +113,7 @@ function Projects(){
                 </Col>
                 <Col>
                     <div>
-                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/GreenMoa.png" />
+                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
                     </div>
                     <img className="project-view" onClick={()=>{window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
@@ -259,7 +259,7 @@ function Projects(){
                     <p>작업기간 : 2023.10.11~2023.11.10 (한 달)</p>
                     <p>개발자 : 박은진, 김진우, 신협진, 이윤주 (4명)</p>
                     <p>웹 소켓으로 캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
-                        게시판, 캘린더, 쪽지, 투두리스트</p>
+                        게시판, 캘린더, 쪽지, 투두리스트 등</p>
                     <div className="badge">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
@@ -274,7 +274,7 @@ function Projects(){
                 </Col>
                 <Col>
                     <div className="project-img" style={{height : '260px'}}>
-                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMain.png" />
+                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
                     </div>
                     <img className="project-view" onClick={()=> {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>

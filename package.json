@@ -14,7 +14,7 @@
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.12.2",
     "sass": "^1.69.4",
     "tsparticles": "^2.12.0",
@@ -27,7 +27,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }, "homepage": "https://eunjinpark98.github.io/portfolio_eunjin/",
+  },
+  "homepage": "https://eunjinpark98.github.io/portfolio_eunjin/",
   "eslintConfig": {
     "extends": [
       "react-app",
