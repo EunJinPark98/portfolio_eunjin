@@ -46,7 +46,7 @@ function Main() {
 
   return (
     <div className="intro">
-      <img className="main-photo-mo mb-2" src="https://eunjinpark98.github.io/portfolio_eunjin/memoji1.png"></img>
+      <img className="main-photo-mo mb-2" src="https://eunjinpark98.github.io/portfolio_eunjin/memoji1.png" alt="은진미모티콘"/>
       <h1 className="intro-1 mb-2">{displayIntro1}</h1>
       <h3 className="intro-2 mb-5">{displayIntro2}</h3>
       <p className={displayIntro3 ? "intro-3 show" : "intro-3"} dangerouslySetInnerHTML={{ __html: intro3 }}></p>

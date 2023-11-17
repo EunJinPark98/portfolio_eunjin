@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState } from "react";
 import { Carousel, Col, Modal, Row } from "react-bootstrap";
 
@@ -21,18 +22,18 @@ function Projects(){
                         웹 표준을 준수하여 기존 웹 사이트에서 많이 사용되는 기능들을 구현했습니다.
                     </p>
                     <div className="badge mb-2">
-                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
-                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
-                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
-                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_jquery.svg" />
-                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_figma.svg" />
+                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" alt="html"/>
+                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" alt="css" />
+                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" alt="javascript" />
+                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_jquery.svg" alt="jquery" />
+                        <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_figma.svg" alt="figma" />
                     </div>
                 
                 
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
-                        <img className="xexymix" src="https://eunjinpark98.github.io/portfolio_eunjin/xexymix.png" />
+                        <img className="xexymix" src="https://eunjinpark98.github.io/portfolio_eunjin/xexymix.png" alt="프로젝트"/>
                     </div>
-                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png" />
+                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png" alt="노란색화살표"/>
                 </Col>
                 
             </Row>

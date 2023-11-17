@@ -1,13 +1,11 @@
-import { Col, Row } from "react-bootstrap";
-
 function About(){
     return (
         <div className="about-fr">
             <div className="profile-photo">
                 <div className="photo-fr">
                     <div className="flip">
-                        <img className="photo2" src="https://eunjinpark98.github.io/portfolio_eunjin/photo2.png" />
-                        <img className="photo" src="https://eunjinpark98.github.io/portfolio_eunjin/photo.jpg" />
+                        <img className="photo2" src="https://eunjinpark98.github.io/portfolio_eunjin/photo2.png" alt="은진미모티콘" />
+                        <img className="photo" src="https://eunjinpark98.github.io/portfolio_eunjin/photo.jpg" alt="은진증명사진"/>
                     </div>
                 </div>
             </div>

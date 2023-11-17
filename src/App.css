@@ -864,7 +864,7 @@ th{
     padding: 100px 70px;
     font-family: 'TAEBAEKfont';
     display: flex;
-    align-items: end;
+    align-items: flex-end;
   }
 
   .myTistory {
