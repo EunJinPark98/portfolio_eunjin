@@ -30,7 +30,7 @@ function About(){
                             <td>경기 성남시</td>
                             <td>울산대학교(사회복지학전공)</td>
                             <td>010-5512-4219</td>
-                            <td>obliviscor29@gamil.com</td>
+                            <td>obliviscor29@naver.com</td>
                         </tr>
                     </tbody>
                 </table>
