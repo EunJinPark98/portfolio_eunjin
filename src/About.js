@@ -26,7 +26,7 @@ function About(){
                             <td>박은진</td>
                             <td>980609</td>
                             <td>경기 성남시</td>
-                            <td>울산대학교(사회복지학전공)</td>
+                            <td>울산대학교(사회복지학)</td>
                             <td>010-5512-4219</td>
                             <td>obliviscor29@naver.com</td>
                         </tr>
