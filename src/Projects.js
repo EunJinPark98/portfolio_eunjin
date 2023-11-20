@@ -33,7 +33,6 @@ function Projects(){
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
                         <img className="xexymix" src="https://eunjinpark98.github.io/portfolio_eunjin/xexymix.png" alt="프로젝트"/>
                     </div>
-                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png" alt="노란색화살표"/>
                 </Col>
                 
             </Row>
@@ -60,7 +59,6 @@ function Projects(){
                     <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>
                         <img className="kakao" src="https://eunjinpark98.github.io/portfolio_eunjin/kakao.png" />
                     </div>
-                    <img className="project-view" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -88,7 +86,6 @@ function Projects(){
                     <div className="project-img greenLibrary-img" onClick={()=>{setShow(true)}}>
                         <img className="greenLibrary" src="https://eunjinpark98.github.io/portfolio_eunjin/greenLibrary.png" />
                     </div>
-                    <img className="project-view" onClick={()=>{setShow(true)}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -116,7 +113,6 @@ function Projects(){
                     <div>
                         <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
                     </div>
-                    <img className="project-view" onClick={()=>{window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/cursor_click.png"/>
                 </Col>
             </Row>
             <Row className="project-box mb-5">
@@ -336,7 +332,7 @@ function Projects(){
                         <Carousel.Item>
                             <img className="library-show" src="https://eunjinpark98.github.io/portfolio_eunjin/library_admin.gif" />
                             <Carousel.Caption className="library-txt">
-                            <h5>관리자 페이지 상품 등록</h5>
+                            <h5>상품 등록</h5>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
