@@ -305,6 +305,17 @@ th{
   margin-top: 20px;
 }
 
+.viewBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.viewBtn button{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .project-cate {
   font-family: 'TAEBAEKfont';
   position: absolute;
@@ -442,7 +453,6 @@ th{
 .greenMoa {
   width: 250px;
   height: auto;
-  margin-bottom: 10px;
 }
 
 .library-show {
@@ -798,7 +808,6 @@ th{
 
   .project-img {
     width: 100%;
-    height: 300px;
   }
 
   .greenLibrary-img{

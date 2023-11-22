@@ -28,10 +28,12 @@ function Projects(){
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_jquery.svg" alt="jquery" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_figma.svg" alt="figma" />
                     </div>
-                
-                
-                    <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>
+                    <div className="project-img">
                         <img className="xexymix" src="https://eunjinpark98.github.io/portfolio_eunjin/xexymix.png" alt="프로젝트"/>
+                    </div>
+                    <div className="viewBtn">
+                        <Button onClick={()=>{window.open('https://github.com/EunJinPark98/PCWebSite')}}>깃허브</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>웹 페이지</Button>
                     </div>
                 </Col>
                 
@@ -56,8 +58,12 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div className="project-img" onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>
+                    <div className="project-img">
                         <img className="kakao" src="https://eunjinpark98.github.io/portfolio_eunjin/kakao.png" />
+                    </div>
+                    <div className="viewBtn">
+                        <Button onClick={()=>{window.open('https://github.com/EunJinPark98/ResponsiveWebSite')}}>깃허브</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>웹 페이지</Button>
                     </div>
                 </Col>
             </Row>
@@ -83,8 +89,12 @@ function Projects(){
                     </div>
                 </Col>
                 <Col>
-                    <div className="project-img greenLibrary-img" onClick={()=>{setShow(true)}}>
+                    <div className="project-img greenLibrary-img">
                         <img className="greenLibrary" src="https://eunjinpark98.github.io/portfolio_eunjin/greenLibrary.png" />
+                    </div>
+                    <div className="viewBtn">
+                        <Button onClick={()=>{window.open('https://github.com/EunJinPark98/LibraryShop')}}>깃허브</Button>
+                        <Button onClick={()=>{setShow(true)}}>시연 영상</Button>
                     </div>
                 </Col>
             </Row>
@@ -111,7 +121,11 @@ function Projects(){
                 </Col>
                 <Col>
                     <div>
-                        <img className="greenMoa" onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}} src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
+                        <img className="greenMoa" src="https://eunjinpark98.github.io/portfolio_eunjin/greenMoaMainPage.png" />
+                    </div>
+                    <div className="viewBtn">
+                        <Button onClick={()=>{window.open('https://github.com/EunJinPark98/GREENMOA')}}>깃허브</Button>
+                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>노션</Button>
                     </div>
                 </Col>
             </Row>
@@ -131,6 +145,10 @@ function Projects(){
                 </Col>
                 <Col>
                     <img className="portImg" src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
+                    <div className="viewBtn">
+                        <Button onClick={()=>{window.open('https://github.com/EunJinPark98/portfolio_eunjin')}}>깃허브</Button>
+                        <Button onClick={()=>{alert('현재 보고 계신 페이지입니다!')}}>웹 페이지</Button>
+                    </div>
                 </Col>
             </Row>
 
