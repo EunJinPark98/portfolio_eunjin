@@ -682,6 +682,7 @@ th{
   tr {
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
   }
   
   th{
@@ -896,7 +897,6 @@ th{
   .myTistory {
     width: 500px;
   }
-
 
   .card-content {
     font-family: 'LINESeedKR-Bd';

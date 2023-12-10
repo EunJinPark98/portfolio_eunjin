@@ -12,8 +12,7 @@ function Archive(){
                     <Card.Body>
                         <Card.Title><img className="tistory-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/tistory.png" alt="티스토리로고" />개발 블로그</Card.Title>
                         <Card.Text className="card-content">
-                            개발과 관련해서 배운 내용들을<br /> 모두 기록하고 있습니다. <br />
-                            혼자 코딩할 때나 팀 프로젝트 시<br /> 참고용으로 활용됩니다.<br />
+                        개발 지식, 직접 작성한 코드 등<br />개발과 관련된 것들을 기록하고 공유하고 있습니다. <br />
                         </Card.Text>
                         <Button className="archiveBtn" variant="primary" onClick={() => { window.open('https://bagun-coding.tistory.com/') }}>보러가기</Button>
                     </Card.Body>
@@ -59,8 +58,7 @@ function Archive(){
                 <Card.Body>
                     <Card.Title style={{fontSize : '1.5rem'}} className="mb-3 mt-2"><img className="tistory-logo" src="https://eunjinpark98.github.io/portfolio_eunjin/tistory.png" alt="티스토리로고"/>개발 블로그</Card.Title>
                     <Card.Text className="card-content">
-                        개발과 관련해서 배운 내용들을<br /> 모두 기록하고 있습니다. <br />
-                        혼자 코딩할 때나 팀 프로젝트 시<br /> 참고용으로 활용됩니다.<br />
+                    개발 지식, 직접 작성한 코드 등<br />개발과 관련된 것들을 기록하고 공유하고 있습니다. <br />
                     </Card.Text>
                     <Button variant="primary" onClick={() => { window.open('https://bagun-coding.tistory.com/') }}>보러가기</Button>
                 </Card.Body>
