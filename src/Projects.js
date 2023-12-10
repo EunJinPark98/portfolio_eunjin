@@ -21,7 +21,7 @@ function Projects(){
                         Slick 플러그인을 활용한 이미지 슬라이드<br />
                         웹 표준을 준수하여 기존 웹 사이트에서 많이 사용되는 기능들을 구현했습니다.
                     </p>
-                    <div className="badge mb-2">
+                    <div className="badge mb-4 mt-2">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" alt="html"/>
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" alt="css" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" alt="javascript" />
@@ -49,7 +49,7 @@ function Projects(){
                         Figma를 활용한 반응형 웹 디자인,<br />
                         jQuery를 활용한 각종 탭 효과를 넣었습니다. <br />
                     </p>
-                    <div className="badge m-2">
+                    <div className="badge mb-4 mt-2">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
@@ -77,12 +77,12 @@ function Projects(){
                     <p> 로그인 / 회원가입 (시큐리티)<br />
                         상품 상세보기, 장바구니, 구매, 상품 등록, 조회, 페이징
                     </p>
-                    <div className="badge">
+                    <div className="badge mt-2">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
                     </div>
-                    <div className="badge mb-2">
+                    <div className="badge mb-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_java.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_springboot.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_oracle.svg" />
@@ -107,13 +107,13 @@ function Projects(){
                     <p>개발자 : 박은진, 김진우, 신협진, 이윤주 (4명)</p>
                     <p>웹 소켓으로 캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
                         게시판, 캘린더, 쪽지, 투두리스트 등</p>
-                    <div className="badge">
+                    <div className="badge mt-2">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_jquery.svg" />
                     </div>
-                    <div className="badge mb-3">
+                    <div className="badge mb-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_java.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_springboot.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_oracle.svg" />
@@ -125,7 +125,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/GREENMOA')}}>깃허브</Button>
-                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>노션</Button>
+                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>소개</Button>
                     </div>
                 </Col>
             </Row>
@@ -137,7 +137,7 @@ function Projects(){
                     <p>개발자 : 박은진 (1명)</p>
                     <p>React로 제작한 포트폴리오 사이트<br />
                     </p>
-                    <div className="badge mb-3">
+                    <div className="badge mb-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_react.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
@@ -198,7 +198,7 @@ function Projects(){
                         Slick 플러그인을 활용한 이미지 슬라이드<br />
                         웹 표준을 준수하여 기존 웹 사이트에서 많이 사용되는 기능들을 구현했습니다.
                     </p>
-                    <div className="badge">
+                    <div className="badge mt-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
@@ -228,7 +228,7 @@ function Projects(){
                         Figma를 활용한 반응형 웹 디자인,<br />
                         jQuery를 활용한 각종 탭 효과를 넣었습니다. <br />
                     </p>
-                    <div className="badge">
+                    <div className="badge mt-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
@@ -256,7 +256,7 @@ function Projects(){
                     <p> 로그인 / 회원가입 (시큐리티)<br />
                         상품 상세보기, 장바구니, 구매, 상품 등록, 조회, 페이징
                     </p>
-                    <div className="badge">
+                    <div className="badge mt-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
@@ -284,7 +284,7 @@ function Projects(){
                     <p>개발자 : 박은진, 김진우, 신협진, 이윤주 (4명)</p>
                     <p>웹 소켓으로 캐릭터 접속, 이동, 채팅 가능한 메타버스 공간<br/>
                         게시판, 캘린더, 쪽지, 투두리스트 등</p>
-                    <div className="badge">
+                    <div className="badge mt-4">
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_html.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
@@ -314,7 +314,7 @@ function Projects(){
                     <p>개발자 : 박은진 (1명)</p>
                     <p>React로 제작한 포트폴리오 사이트<br />
                     </p>
-                    <div className="badge" style={{marginLeft : '-200px'}}>
+                    <div className="badge mt-4" style={{marginLeft : '-200px'}}>
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_react.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_js.svg" />
                         <img src="https://eunjinpark98.github.io/portfolio_eunjin/badge_css.svg" />

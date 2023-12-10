@@ -91,12 +91,13 @@ html{
 }
 
 .intro-1 {
-  font-size: 1.5rem;
+  margin-top: 20px;
+  font-size: 1.7rem;
   font-family: 'TAEBAEKfont';
 }
 
 .intro-2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   opacity: 0.7;
   font-family: 'TAEBAEKfont';
 }
@@ -104,7 +105,7 @@ html{
 .intro p {
   margin-top: 40px;
   line-height: 25px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-family: 'LINESeedKR-Bd';
 }
 
@@ -118,6 +119,7 @@ html{
 }
 
 .main-photo-mo{
+  margin-top: 20px;
   width: 50%;
   max-width: 200px;
   height: auto;
@@ -183,7 +185,7 @@ html{
   padding-top: 5px;
   width: 130%;
   margin-left: -10px;
-  margin-top: -7px;
+  margin-top: -4px;
 }
 
 .photo-fr .flip .photo {
@@ -206,6 +208,7 @@ table {
 tr {
   display: flex;
   flex-direction: column;
+  font-size: 1rem;
 }
 
 th{
@@ -303,6 +306,13 @@ th{
 .project-box h5 {
   font-family: 'TAEBAEKfont';
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.project-box p{
+  margin-bottom: 5px;
 }
 
 .viewBtn{
@@ -606,18 +616,18 @@ th{
   }
 
   .intro-1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .intro-2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     opacity: 0.7;
   }
 
   .intro p {
     margin-top: 70px;
-    line-height: 40px;
-    font-size: 1.3rem;
+    line-height: 50px;
+    font-size: 2rem;
   }
 
   /* About */
@@ -763,6 +773,9 @@ th{
 
   .project-box h5 {
     margin-top: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    justify-content: left;
   }
 
   .project-cate {

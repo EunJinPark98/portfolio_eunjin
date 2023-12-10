@@ -11,9 +11,8 @@ function Main() {
 
   const [displayIntro3, setDisplayIntro3] = useState(false);
   const intro3 = `빠르게 성장하는 개발자 박은진입니다. <br />
-    새로운 것에 도전하는 것을 좋아하며 개발에 열정과 애정이 큽니다. <br />
-    배우고 깨달은 것들을 항상 기록하고 있으며, <br />
-    사람을 좋아해서 인간관계를 소중히 생각하는 편입니다.`;
+    기록, 도전, 사람을 좋아합니다.<br />
+    웹 개발, 의사소통에 자신 있습니다.`;
 
   useEffect(() => {
     if (intro1Index < intro1.length) {
