@@ -33,7 +33,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/PCWebSite')}}>깃허브</Button>
-                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>웹 페이지</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>보러 가기</Button>
                     </div>
                 </Col>
                 
@@ -63,7 +63,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/ResponsiveWebSite')}}>깃허브</Button>
-                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>웹 페이지</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -94,7 +94,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/LibraryShop')}}>깃허브</Button>
-                        <Button onClick={()=>{setShow(true)}}>시연 영상</Button>
+                        <Button onClick={()=>{setShow(true)}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -125,7 +125,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/GREENMOA')}}>깃허브</Button>
-                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>소개</Button>
+                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -147,7 +147,7 @@ function Projects(){
                     <img className="portImg" src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/portfolio_eunjin')}}>깃허브</Button>
-                        <Button onClick={()=>{alert('현재 보고 계신 페이지입니다!')}}>웹 페이지</Button>
+                        <Button onClick={()=>{alert('현재 보고 계신 페이지입니다!')}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -212,7 +212,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/PCWebSite')}}>깃허브</Button>
-                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>웹 페이지</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/PCWebSite/main/main.html') }}>보러 가기</Button>
                     </div>
                 </Col>
                 
@@ -242,7 +242,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/ResponsiveWebSite')}}>깃허브</Button>
-                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>웹 페이지</Button>
+                        <Button onClick={() => { window.open('https://eunjinpark98.github.io/ResponsiveWebSite/main/main.html') }}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -271,7 +271,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/LibraryShop')}}>깃허브</Button>
-                        <Button onClick={()=>{setShow(true)}}>시연 영상</Button>
+                        <Button onClick={()=>{setShow(true)}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -302,7 +302,7 @@ function Projects(){
                     </div>
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/GREENMOA')}}>깃허브</Button>
-                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>노션</Button>
+                        <Button onClick={() => {window.open('https://eunjin-park.notion.site/GREEN-MOA-1bf4f3c360d34e57af6f3a2c796e0664?pvs=4')}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
@@ -324,7 +324,7 @@ function Projects(){
                     <img className="portImg" src="https://eunjinpark98.github.io/portfolio_eunjin/portfolio.png" />
                     <div className="viewBtn">
                         <Button onClick={()=>{window.open('https://github.com/EunJinPark98/portfolio_eunjin')}}>깃허브</Button>
-                        <Button onClick={()=>{alert('현재 보고 계신 페이지입니다!')}}>웹 페이지</Button>
+                        <Button onClick={()=>{alert('현재 보고 계신 페이지입니다!')}}>보러 가기</Button>
                     </div>
                 </Col>
             </Row>
