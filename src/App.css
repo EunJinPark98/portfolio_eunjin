@@ -370,13 +370,12 @@ th{
 }
 
 .project-img {
-  width: 250px;
   height: 250px;
   overflow: hidden;
 }
 
 .xexymix {
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -386,7 +385,7 @@ th{
 }
 
 .portImg {
-  width: 250px;
+  width: 300px;
 }
 
 .greenLibrary-img {
@@ -451,7 +450,7 @@ th{
 }
 
 .greenMoa {
-  width: 250px;
+  width: 300px;
   height: auto;
 }
 
