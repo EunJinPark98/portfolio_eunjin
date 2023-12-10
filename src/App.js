@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 import { Col, Container, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap';
 import './App.css';
 import About from './About';
@@ -49,7 +48,7 @@ function App() {
             <Row>
               <Col>
                 <Routes>
-                  <Route path="/portfolio_eunjin" element={<Main />} />
+                  <Route path="/portfolio_eunjin" element={<Main setExpanded={setExpanded} />} />
                 </Routes>
               </Col>
             </Row>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Main() {
+function Main({ setExpanded }) {
   const [displayIntro1, setDisplayIntro1] = useState("");
   const [intro1Index, setIntro1Index] = useState(0);
   const intro1 = "Hello!   I'm Eunjin,";
@@ -14,34 +14,46 @@ function Main() {
     기록, 도전, 사람을 좋아합니다.<br />
     웹 개발, 의사소통에 자신 있습니다.`;
 
-  useEffect(() => {
-    if (intro1Index < intro1.length) {
-      const timer = setTimeout(() => {
-        setDisplayIntro1(intro1.substring(0, intro1Index + 1));
-        setIntro1Index(intro1Index + 1);
-      }, 130);
-      return () => clearTimeout(timer);
-    }
-  }, [intro1Index, intro1]);
-
-  useEffect(() => {
-    if (intro1Index === intro1.length && intro2Index < intro2.length) {
-      const timer = setTimeout(() => {
-        setDisplayIntro2(intro2.substring(0, intro2Index + 1));
-        setIntro2Index(intro2Index + 1);
-      }, 60);
-      return () => clearTimeout(timer);
-    }
-  }, [intro1Index, intro2Index, intro2]);
-
-  useEffect(() => {
-    if (intro2Index === intro2.length) {
-      const timer = setTimeout(() => {
-        setDisplayIntro3(true);
-      }, 500); 
-      return () => clearTimeout(timer);
-    }
-  }, [intro2Index, displayIntro3]);
+    useEffect(() => {
+      if (intro1Index < intro1.length) {
+        const timer = setTimeout(() => {
+          setDisplayIntro1(intro1.substring(0, intro1Index + 1));
+          setIntro1Index(intro1Index + 1);
+        }, 130);
+        return () => clearTimeout(timer);
+      }
+    }, [intro1Index, intro1]);
+  
+    useEffect(() => {
+      if (intro1Index === intro1.length && intro2Index < intro2.length) {
+        const timer = setTimeout(() => {
+          setDisplayIntro2(intro2.substring(0, intro2Index + 1));
+          setIntro2Index(intro2Index + 1);
+        }, 60);
+        return () => clearTimeout(timer);
+      }
+    }, [intro1Index, intro2Index, intro2]);
+  
+    useEffect(() => {
+      if (intro2Index === intro2.length) {
+        const timer = setTimeout(() => {
+          setDisplayIntro3(true);
+        }, 500);
+  
+        return () => clearTimeout(timer);
+      }
+    }, [intro2Index]);
+  
+    useEffect(() => {
+      if (displayIntro3) {
+        const expansionTimer = setTimeout(() => {
+          setExpanded(true);
+        }, 1000);
+  
+        return () => clearTimeout(expansionTimer);
+      }
+    }, [displayIntro3, setExpanded]);
+  
 
   return (
     <div className="intro">
